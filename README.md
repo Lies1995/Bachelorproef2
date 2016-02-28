@@ -5,7 +5,7 @@ Maandag 22 Februari --> Maandag 29 Februari
 READ:
    L   H
 - [x] [ ] X-Ray Radiosensitizatioin Gold nm --> Both
-- [ ] [ ] Masterproef Lennaert --> Both
+- [ ] [ ] Masterproef Lennaert (chapters 1,2,3,4,6 (6.1; 6.2),7)--> Both 
 -     [ ] Preparation Gold --> Hannelore
 - [ ]     Manual DLS & other techniques (see internet)--> Lies
 
@@ -14,5 +14,5 @@ PREPARE:
 -     [ ] Method for goldparticle synthesis --> Hannelore
 	      -[ ] Check p. 67 Masterproef Lennaert 
 	      -[ ] Compare with paper Preparation Gold 
-- [ ]    Comprehend the different characterisation 
+- [x]    Comprehend the different characterisation 
 			techniques (make summary)--> Lies
