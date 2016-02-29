@@ -22,3 +22,5 @@ PREPARE:
 
 Voorstel:
 Er zijn 5 technieken + de preparatie van de goudnanopartikels. Elk 3 delen schrijven? (nu al)
+
+- [ ] Uitzoeken hoe fit data wegkrijgen
