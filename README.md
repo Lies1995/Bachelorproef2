@@ -17,7 +17,8 @@ PREPARE:
 - [x]    Comprehend the different characterisation 
 			techniques (make summary)--> Lies
 
-
+-[ ] Understand SBl (DLS)
+-[ ]  FInd papar Thompson 2010
 
 Voorstel:
 Er zijn 5 technieken + de preparatie van de goudnanopartikels. Elk 3 delen schrijven? (nu al)
