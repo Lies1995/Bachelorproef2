@@ -7,7 +7,7 @@ READ:
 - [x] [ ] X-Ray Radiosensitizatioin Gold nm --> Both
 - [ ] [ ] Masterproef Lennaert (chapters 1,2,3,4,6 (6.1; 6.2),7)--> Both 
 -     [ ] Preparation Gold --> Hannelore
-- [ ]     Manual DLS & other techniques (see internet)--> Lies
+- [x]     Manual DLS & other techniques (see internet)--> Lies
 
 PREPARE: 
    L   H
@@ -16,3 +16,8 @@ PREPARE:
 	      -[ ] Compare with paper Preparation Gold 
 - [x]    Comprehend the different characterisation 
 			techniques (make summary)--> Lies
+
+
+
+Voorstel:
+Er zijn 5 technieken + de preparatie van de goudnanopartikels. Elk 3 delen schrijven? (nu al)
