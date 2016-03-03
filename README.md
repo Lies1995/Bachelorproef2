@@ -16,14 +16,43 @@ PREPARE:
 	      -[ ] Compare with paper Preparation Gold 
 - [x]    Comprehend the different characterisation 
 			techniques (make summary)--> Lies
-
--[ ] Understand SBl (DLS)
--[ ]  FInd papar Thompson 2010
+- [x] Uitzoeken hoe fit data wegkrijgen
 
 Voorstel:
-Er zijn 5 technieken + de preparatie van de goudnanopartikels. Elk 3 delen schrijven? (nu al)
+-------------------------------------
+TODO deze week: Data verwerking 
+-------------------------------------
+Voor DLS--> GRAFIEK+TABEL --> Lies
+	Interessant om voor en na PEG de exponentiele grafiek te tonen.
+	- [ ] automatische matlab code die nette plots maakt
+	- [ ] latex tabel maken met concrete resultaten
 
-- [ ] Uitzoeken hoe fit data wegkrijgen
+UV-VIS:--> GRAFIEK + TABEL --> Hannelore
+	Idem: voor en na PEG grafiek tonen
+	- [ ] automatische matlab code die nette plots maakt
+	- [ ] latex tabel maken met concrete resultaten
+
+Zeta-potentiaal:--> TABEL 
+	ook ervoor en erna? ik weet het niet
+-------------------------------------
+TODO volgende week: 
+-------------------------------------
+Nieuwe resultaten (nu met PEG)--> maandag hele dag
+
+Data verwerking 2--> zou nu snel moeten gaan met de automatische code's
+
+Schrijven--> Belangrijk!
+	Hannelore:
+		- [ ] Preparatie goudnanoparticels 
+		- [ ] Zeta-potentiaal
+		- [ ] TEM
+	Lies:
+		- [ ] TGA
+		- [ ] UV-VIS
+		- [ ] DLS
+			- [ ] Find papar Thompson 
+			- [ ] Understand SBl (DLS)
 
 
-Voorstel data DLS: 1 grafiek (intensiteit in functie van tijd) bewerken en mooi krijgen--> gewoon om aan te tonen hoe het werkt. En dan 1 grafiek met staafjes (zelf tekenen)--> rest van de resultaten in een tabel zetten (het lukt niet om de data zelf te plotten :( )
+
+
