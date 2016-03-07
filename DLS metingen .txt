@@ -1,0 +1,25 @@
+DLS metingen:
+Voor PEG
+	3 nanodeeltjes: 15nm, 30nm en 45nm
+	Elk deeltje 5 keer totale meting
+		In elke meting: 5 keer 1 meting (60sec) met om de us 1 meting. 
+Na PEG
+	3 nanodeeltjes: 15nm, 30nm en 45nm
+	Elk deeltje 5 keer totale meting
+		In elke meting: 5 keer 1 meting (60sec) met om de us 1 meting. 
+
+Welke exporteren/gebruiken we:
+	Mastercurve (=Sommeer alle date + trek 1 fit erdoor)
+		--> PL (TIME, DIA)
+		--> SBL (TIME, DIA)
+	Statistical (=Fit elke meting (van 60sec), breng de resultaten samen en middel uit)
+
+Plots te maken
+Voorbeeldplots
+	1 plot van PL & SBL TIME voor de drie deeltjes (bijvoorbeeld van de eerste meting) 
+		--> kijken hoe de curve verandert door de verschillende grootte
+	Voor elk deeltje de statistical curve (van 1 meting)
+		--> kijken hoe groot hij is gemiddeld 
+Om definitief te kunnen zeggen--> dit is de groote van de GNP:
+Voor elk deeltje: 
+	Statistical curves bijeen brengen--> daar mean value bereken + Standaardafwijking
