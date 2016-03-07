@@ -14,4 +14,6 @@ ml=[0.8, 1.24, 2.5];
    plot(x,y1,x,y2,x,y3)
 
    xlabel('Wavelength ($nm$)')
-   ylabel('Normalized absorptiption (a.u.)')
+   ylabel('Normalized absorption (a.u.)')
+   legend('0.8 ml','1.24 ml', '2.5 ml')
+  
