@@ -6,13 +6,13 @@ READ:
    L   H
 - [x] [ ] X-Ray Radiosensitizatioin Gold nm --> Both
 - [ ] [ ] Masterproef Lennaert (chapters 1,2,3,4,6 (6.1; 6.2),7)--> Both 
--     [ ] Preparation Gold --> Hannelore
+-     [x] Preparation Gold --> Hannelore
 - [x]     Manual DLS & other techniques (see internet)--> Lies
 
 PREPARE: 
    L   H
--     [ ] Method for goldparticle synthesis --> Hannelore
-	      -[ ] Check p. 67 Masterproef Lennaert 
+-     [x] Method for goldparticle synthesis --> Hannelore
+	      -[x] Check p. 67 Masterproef Lennaert 
 	      -[ ] Compare with paper Preparation Gold 
 - [x]    Comprehend the different characterisation 
 			techniques (make summary)--> Lies
@@ -24,7 +24,7 @@ TODO deze week: Data verwerking
 -------------------------------------
 Voor DLS--> GRAFIEK+TABEL --> Lies
 	Interessant om voor en na PEG de exponentiele grafiek te tonen.
-	- [ ] automatische matlab code die nette plots maakt
+	- [x] automatische matlab code die nette plots maakt
 	- [ ] latex tabel maken met concrete resultaten
 
 UV-VIS:--> GRAFIEK + TABEL --> Hannelore
@@ -44,14 +44,14 @@ Data verwerking 2--> zou nu snel moeten gaan met de automatische code's
 Schrijven--> Belangrijk!
 	Hannelore:
 		- [ ] Preparatie goudnanoparticels 
-		- [ ] Zeta-potentiaal
+		- [ ] UV-VIS
+			- [ ] Waarom waarden absorbtie hoger dan 1?
 		- [ ] TEM
 	Lies:
-		- [ ] TGA
-		- [ ] UV-VIS
 		- [ ] DLS
 			- [ ] Find papar Thompson 
 			- [ ] Understand SBl (DLS)
+		- [ ] Zeta-potentiaal
 
 
 
