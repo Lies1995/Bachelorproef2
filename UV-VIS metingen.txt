@@ -2,6 +2,8 @@ UV-VIS metingen:
 
 Voor PEG:
 Alle drie de deeltjes, van 300nm-900nm
+--> 1 meting aangezien er per golflengte al 25 flashes genomen worden en daar al een gemiddelde van genomen wordt.
+
 
 Om te bepalen hoeveel PEG nodig:
 	Kleinste GNP, Grootste PEG:
