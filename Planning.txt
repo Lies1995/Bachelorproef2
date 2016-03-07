@@ -1,0 +1,26 @@
+Planning 
+
+Data Exporteren:
+	-[ ] DLS 0.8 ml High accuracy 3 & 4 (& 2 --> 5 )
+Uitzoeken hoeveel PEG nodig: (UV-VIS; Zonder zout en met zout)
+	Ma 7/03	 -[ ] 20k:
+	Do 10/03 -[ ] 10k:
+	Do 10/03 -[ ] 5k:
+	Ma 14/03 -[ ] 1k:
+Oplossing drie GNP+ juiste hoeveelheid PEG + Karakterisaties
+	Do 10/03 -[ ] 20k:
+				-[ ] DLS (x5, 5 runs)
+				-[ ] UV-VIS (x1, 25 flashes)
+				-[ ] Zeta Potentiaal (x1, 10 metingen)
+	Do 10/03 -[ ] 10k:
+				-[ ] DLS (x5, 5 runs)
+				-[ ] UV-VIS (x1, 25 flashes)
+				-[ ] Zeta Potentiaal (x1, 10 metingen)
+	Ma 14/03 -[ ] 5k:
+				-[ ] DLS (x5, 5 runs)
+				-[ ] UV-VIS (x1, 25 flashes)
+				-[ ] Zeta Potentiaal (x1, 10 metingen)
+	Ma 14/03 -[ ] 1k:
+				-[ ] DLS (x5, 5 runs)
+				-[ ] UV-VIS (x1, 25 flashes)
+				-[ ] Zeta Potentiaal (x1, 10 metingen)
