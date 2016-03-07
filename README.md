@@ -51,7 +51,8 @@ Schrijven--> Belangrijk!
 		- [ ] DLS
 			- [ ] Find papar Thompson 
 			- [ ] Understand SBl (DLS)
-		- [ ] Zeta-potentiaal
+		- [ ] Zeta-Potentiaal
+		
 
 
 
