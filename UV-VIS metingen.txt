@@ -14,3 +14,21 @@ Na PEG:
 Alle drie de deeltjes, van 300nm-900nm
 
 
+Plots te maken
+
+Om te bepalen hoeveel PEG:
+voorbeeld:
+Voor 20k & 2.5ml:
+--> Grafiek met PEG zonder zout
+--> Grafiek met PEG en zout
+Aantonen: vanaf bepaalde concentratie geen aggregatie meer van de deeltjes. --> 1 piek 
+		Dus: zout heet geen invloed meer. 
+
+Karakterisatie
+voorbeeld:
+Voor 20k:
+--> Grafiek met en zonder PEG voor elk deeltje appart
+--> Grafiek drie deeltjes voor PEG
+--> Grafiek drie deeltjes na PEG
+--> Grafiek drie deeltjes voor en na PEG (combinatie van de twee hierboven)
+Aantonen: groter deeltje--> piek schuift op naar rechts (zowel voor als na PEG functionalisatie)
