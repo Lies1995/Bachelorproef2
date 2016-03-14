@@ -5,9 +5,9 @@ Data Exporteren:
 	- [ ] Zeta 0.8ml20k, 1.24 ml20k, 2.5ml20k  export to excel
 Uitzoeken hoeveel PEG nodig: (UV-VIS; Zonder zout en met zout)
 	Ma 7/03	 -[x] 20k: PEG/GNP=8/10
-	Do 10/03 -[ ] 10k: PEG/GNP=6/10
-	Do 10/03 -[ ] 5k:  PEG/GNP= 6/10
-	Ma 14/03 -[ ] 1k:
+	Do 10/03 -[x] 10k: PEG/GNP=6/10
+	Do 10/03 -[x] 5k:  PEG/GNP=4/10
+	Ma 14/03 -[x] 1k:  PEG/GNP=4/100
 Functionaliseren met PEG--> Karakterisaties
 	Do 10/03 -[ ] 20k: 
 		0.8ml:
@@ -15,7 +15,7 @@ Functionaliseren met PEG--> Karakterisaties
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		1.24ml:
-				-[ ] DLS (x5, 5 runs)II
+				-[x] DLS (x5, 5 runs)IIIII
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
@@ -26,38 +26,38 @@ Functionaliseren met PEG--> Karakterisaties
 		0.8ml:
 				-[ ] DLS (x5, 5 runs) 
 				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 		1.24ml:
 				-[ ] DLS (x5, 5 runs)
 				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
 				-[ ] DLS (x5, 5 runs)I
 				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 
 	Ma 14/03 -[ ] 5k:
 		0.8ml:
 				-[ ] DLS (x5, 5 runs) 
-				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] UV-VIS (x1, 25 flashes)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 		1.24ml:
 				-[ ] DLS (x5, 5 runs)
-				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] UV-VIS (x1, 25 flashes)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
 				-[ ] DLS (x5, 5 runs)I
-				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] UV-VIS (x1, 25 flashes)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 	Ma 14/03 -[ ] 1k:
 		0.8ml:
 				-[ ] DLS (x5, 5 runs) 
 				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 		1.24ml:
 				-[ ] DLS (x5, 5 runs)
 				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
 				-[ ] DLS (x5, 5 runs)I
 				-[ ] UV-VIS (x1, 25 flashes)
