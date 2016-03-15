@@ -1,0 +1,38 @@
+Meetresultaten
+
+UV-Vis
+	29/02/16
+	GNP_alle: GNP's zonder PEG
+
+	07/03/16
+	GNP_2.5_20k: Bepalen hoeveel 20k PEG voor 2.5ml
+
+	10/03/16
+	GNP_10032016: Bepalen hoeveel 1k, 5k, 10k PEG (zonder zout) voor 2.5ml
+	GNP_2.5_1k: Bepalen hoeveel 1k PEG (met en zonder zout) voor 2.5ml
+	GNP_2.5_5k: Bepalen hoeveel 5k PEG (met en zonder zout)	voor 2.5ml
+	GNP_2.5_10k: Bepalen hoeveel 10k PEG (met en zonder zout) voor 2.5ml
+
+	11/03/16
+	GNP_11032016_1: Bepalen hoeveel 1k, 5k, 10k PEG (met zout)(poging 1) voor 2.5ml
+	GNP_11032016_2: Bepalen hoeveel 1k, 5k, 10k PEG (met zout)(poging 2) voor 2.5ml
+	GNP_11032016_3: 20k PEG met alle GNP's GNP/PEG=8/10 (met en zonder zout)
+	GNP_alle_20k: 20k PEG met alle GNP's GNP/PEG=8/10 (met en zonder zout)
+
+	14/03/16
+	GNP_14032016_1: Bepalen hoeveel 1k PEG (zonder zout) voor 2.5ml
+	GNP_14032016_2: Bepalen hoeveel 1k PEG (met zout) voor 2.5ml
+	GNP_14032016_3: 5k PEG met alle GNP's (zonder zout)
+	GNP_14032016_4: 5k PEG met alle GNP's (met zout)
+	GNP_2.5_1k: Bepalen hoeveel 1k PEG (met en zonder zout) voor 2.5ml
+	GNP_alle_5k: 5k PEG met alle GNP's GNP/PEG=4/10
+	GNP_14032016_2.5_20k: Problemen bij DLS, nieuwe meting 2.5ml en 20k vergelijken met oude. 
+			      Conclusie: core diameter is niet veranderd
+		
+	15/03/16
+	GNP_15032016_1: Bepalen hoeveel 20k PEG voor 2.5ml (opnieuw (zonder zout))
+	GNP_15032016_2: Bepalen hoeveel 20k PEG voor 2.5ml (opnieuw (met) en lagere concentraties (zonder))
+	GNP_15032016_3: Bepalen hoeveel 20k PEG voor 2.5ml (lagere concentraties (met))
+	GNP_2.5_20k2: Bepalen hoeveel 20k PEG (met en zonder zout)
+
+	
