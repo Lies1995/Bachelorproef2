@@ -2,7 +2,9 @@ Planning
 
 Data Exporteren:
 	- [x] DLS 0.8 ml High accuracy 3 & 4 (& 2 --> 5 )
-	- [ ] Zeta 0.8ml20k, 1.24 ml20k, 2.5ml20k  export to excel
+	- [ ] Zeta 0.8ml20k, 1.24 ml20k, 2.5ml20k  export to excel (10.3.16)
+	- [ ] Zeta pdf 0.8ml, 1.24ml export programm (29.2.16)
+	- [ ] DLS 15.3
 Uitzoeken hoeveel PEG nodig: (UV-VIS; Zonder zout en met zout)
 	Ma 7/03	 -[x] 20k: PEG/GNP=8/10
 	Do 10/03 -[x] 10k: PEG/GNP=6/10
@@ -19,7 +21,11 @@ Functionaliseren met PEG--> Karakterisaties
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
-				-[ ] DLS (x5, 5 runs)I
+				-[ ] DLS (x5, 5 runs)
+					Hoeveelheid PEG:
+					5/10, 6/10, 7/10, 8/10 (opnieuw), 9/10 (opnieuw)
+					3/10, 3.5/10, 4/10, 4.5/10
+
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)			
 	Do 10/03 -[ ] 10k:
@@ -32,7 +38,7 @@ Functionaliseren met PEG--> Karakterisaties
 				-[ ] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
-				-[ ] DLS (x5, 5 runs)I
+				-[ ] DLS (x5, 5 runs)
 				-[ ] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 
@@ -46,7 +52,7 @@ Functionaliseren met PEG--> Karakterisaties
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
-				-[ ] DLS (x5, 5 runs)I
+				-[ ] DLS (x5, 5 runs)
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 	Ma 14/03 -[ ] 1k:
@@ -59,7 +65,7 @@ Functionaliseren met PEG--> Karakterisaties
 				-[ ] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
-				-[ ] DLS (x5, 5 runs)I
+				-[ ] DLS (x5, 5 runs)
 				-[ ] UV-VIS (x1, 25 flashes)
-				-[ ] Zeta Potentiaal (x1, 10 metingen)
+				-[ ] Zeta Potentiaal (x1, 10 metingen)--> waren slecht (dus nieuw sample maken)
 				
