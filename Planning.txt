@@ -2,8 +2,8 @@ Planning
 
 Data Exporteren:
 	- [x] DLS 0.8 ml High accuracy 3 & 4 (& 2 --> 5 )
-	- [ ] Zeta 0.8ml20k, 1.24 ml20k, 2.5ml20k  export to excel (10.3.16)
-	- [ ] Zeta pdf 0.8ml, 1.24ml export programm (29.2.16)
+	- [x] Zeta 0.8ml20k, 1.24 ml20k, 2.5ml20k  export to excel (10.3.16)
+	- [x] Zeta pdf 0.8ml, 1.24ml export programm (29.2.16)
 	- [ ] DLS 15.3
 Uitzoeken hoeveel PEG nodig: (UV-VIS; Zonder zout en met zout)
 	Ma 7/03	 -[x] 20k: PEG/GNP=8/10
