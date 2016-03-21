@@ -1,10 +1,16 @@
 Presentatie Maart 2016
-
-Inleiding:
+------------------------
+HANNELORE
+------------------------
+Inleiding: 
 	Situatie schets (kanker, methoden bestrijden, bestraling)
 	Oplossing--> radiosentisisatie met GNP
 	Doel 
-Meetopstelling+ resultaten
+------------------------
+LIES
+------------------------
+
+Meetopstelling+ resultaten: 
 we maken GNP --> leggen uit hoe
 Maar, oplossing GNP niet stabiel --> hoe zien we dat? --> zeta potentiaal
 Zeta uitleggen+ onze resultaten (zonder PEG)
@@ -12,13 +18,20 @@ Zeta uitleggen+ onze resultaten (zonder PEG)
 Hoe krijgen we de oplossing stabiel? 
 PEG laag
 --> verschillende lengten  PEG
+------------------------
+HANNELORE
+------------------------
 Hoe bepalen we hoeveel?
+--> Uitleggen hoe UV-VIS
 --> UV-VIS voorbeeld met 20k
 
 Kort overzicht
 	We hebben Nano deeltjes (ongeveer deze grootte--> TEM)
 	We hebben die gefunctionaliseerd
 	--> Belangrijk totale grootte GNp te weten
+------------------------
+LIES	
+------------------------
 --> DLS metingen
 	(uitleg+ resultaten; voor 20k, 1.24 en 0.8 ml)
 	ook resultaten van zonder PEG (op één grafiek)
@@ -28,7 +41,9 @@ Kort overzicht
 	--> conclusie: voor kleine GNP minder PEG toevoegen (terug opnieuw vgl met UV-VIS)
 		--> TODO voor ons; uitzoeken hoe metingen DLS beter maken
 --> laatste metingen zeta+PEG (Neutrale PEG--> neutrale Zeta)
-
+------------------------
+HANNELORE
+------------------------
 Conclusie:
 Dit hebben we gedaan:
 	--> GNP gemaakt
