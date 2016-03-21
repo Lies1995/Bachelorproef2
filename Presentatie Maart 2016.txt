@@ -25,7 +25,7 @@ Hoe bepalen we hoeveel?
 --> Uitleggen hoe UV-VIS
 --> UV-VIS voorbeeld met 20k
 
-Kort overzicht
+Kort overzicht 
 	We hebben Nano deeltjes (ongeveer deze grootte--> TEM)
 	We hebben die gefunctionaliseerd
 	--> Belangrijk totale grootte GNp te weten
