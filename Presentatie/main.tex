@@ -23,7 +23,7 @@
 \usepackage{lmodern} % Allows including images
 \usepackage{booktabs}
 \usepackage{textpos}
-\usepackage{media9}
+%\usepackage{media9}
 \usepackage{url}
 %\usepackage{multimedia}
 \usepackage[font={scriptsize,it}]{caption}
@@ -31,6 +31,7 @@
 \usepackage[export]{adjustbox}
 \usepackage{color,xcolor,ucs}
 \usepackage{geometry}
+%\usepackage{ocgx2}
 \usefonttheme{serif}
 
 %----------------------------------------------------------------------------------------
@@ -109,10 +110,90 @@
 %----------------------------------------------------------------------------------------
 \section{Introduction}
 %------------------------------------------------
-	\begin{frame}{Title}
+	\begin{frame}{Cancer treatment}
+	 \footlineextra{Source: https://chem.kuleuven.be/veiligheid/info/ioniserende-st.htm}
+
+		\begin{columns}[c]
+
+		\column{.4\textwidth} % Left column and width
+   
+   			\begin{itemize}
+   				\item Chemotherapy
+    			\item Surgery
+					\item \textbf{Radiation therapy}
+
+   			\end{itemize}
+
+   		\column{.5\textwidth} 
+    
+			\begin{figure}[tb]
+    			\centering
+    			\includegraphics[width=5cm]{gfx/direct.png}
+    			\label{fig:direct}
+			\end{figure}
+
+    	\end{columns}
 			
 	\end{frame}
+	
+	
 
+	\begin{frame}{Radiosensitization with GNPs}
+	
+	\footlineextra{Source: https://en.wikibooks.org/wiki/Basic_Physics_of_Digital_Radiography/The_Patient}
+	\vspace{-1cm}
+	\begin{columns}
+	\column{.5\textwidth} 
+	\begin{figure}[tb]
+    			\centering
+    			\includegraphics[width=6.5cm]{gfx/photoel.png}
+    			\label{fig:photoel}
+			\end{figure}
+	\column{.4\textwidth}
+	Photoelectric absorption
+	\end{columns}
+	
+		\vspace{-1cm}
+
+	\begin{columns}
+	\column{.5\textwidth} 
+	\begin{figure}[tb]
+    			\centering
+    			\includegraphics[width=6.5cm]{gfx/compton.png}
+    			\label{fig:compton}
+			\end{figure}
+	\column{.4\textwidth}
+	Compton effect
+	\end{columns}
+	\center{
+	\Large{Why gold?}
+	\normalsize
+		\begin{description}
+	
+
+   				\item High atomic number (79)
+    			\item Bio compatible
+
+   			\end{description}
+				}
+	\end{frame}
+	
+	\begin{frame}{Goal}
+	\begin{columns}
+	\column{.4\textwidth}
+	\begin{enumerate}
+    \item Synthesis
+    \item Characterization
+    \item Radiosensitization
+\end{enumerate}
+	\column{.5\textwidth}
+	\begin{figure}[tb]
+    			\centering
+    			\includegraphics[width=6.5cm]{gfx/compton.png}
+    			\label{fig:compton}
+			\end{figure}
+	\end{columns}
+	\end{frame}
 %------------------------------------------------
 \section{Synthesis GNP}
 %------------------------------------------------
