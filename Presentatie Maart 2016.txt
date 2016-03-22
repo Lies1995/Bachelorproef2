@@ -24,14 +24,20 @@ HANNELORE
 Hoe bepalen we hoeveel?
 --> Uitleggen hoe UV-VIS
 --> UV-VIS voorbeeld met 20k
-
+Hoofdstuk Karakterisatie
 Kort overzicht 
 	We hebben Nano deeltjes (ongeveer deze grootte--> TEM)
-	We hebben die gefunctionaliseerd
-	--> Belangrijk totale grootte GNp te weten
+	We hebben die gefunctionaliseerd met neutrale PEG
+	Belagnrijk:
+		--> checken zeta (NEUTRAAL)
+		--> grootte nanodeeltje: TEM
+			VOORBEELD afbeelding (wij nog doen)
+		--> Belangrijk totale grootte (hydrodynamische radius) GNP te weten DLS
+		
 ------------------------
 LIES	
 ------------------------
+
 --> DLS metingen
 	(uitleg+ resultaten; voor 20k, 1.24 en 0.8 ml)
 	ook resultaten van zonder PEG (op één grafiek)
@@ -41,6 +47,7 @@ LIES
 	--> conclusie: voor kleine GNP minder PEG toevoegen (terug opnieuw vgl met UV-VIS)
 		--> TODO voor ons; uitzoeken hoe metingen DLS beter maken
 --> laatste metingen zeta+PEG (Neutrale PEG--> neutrale Zeta)
+--> TEM exact grootte
 ------------------------
 HANNELORE
 ------------------------
