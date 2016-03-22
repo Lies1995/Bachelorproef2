@@ -72,8 +72,8 @@
 \begin{document}
 
 %\usebackgroundtemplate{%
- %\includegraphics[width=\paperwidth
- %]{images/backroundtitleslide}}
+% \includegraphics[width=\paperwidth
+ %]{gfx/backroundtitleslide.png}}
 \begin{frame}
 \begin{columns}[c]
 
@@ -165,118 +165,171 @@
 	\column{.4\textwidth}
 	Compton effect
 	\end{columns}
-	\center{
+	\centering
 	\Large{Why gold?}
 	\normalsize
 		\begin{description}
 	
 
-   				\item High atomic number (79)
+   				\item High atomic number ($79$)
     			\item Bio compatible
 
    			\end{description}
-				}
+				
 	\end{frame}
 	
 	\begin{frame}{Goal}
-	\begin{columns}
-	\column{.4\textwidth}
-	\begin{enumerate}
-    \item Synthesis
-    \item Characterization
-    \item Radiosensitization
-\end{enumerate}
-	\column{.5\textwidth}
-	\begin{figure}[tb]
-    			\centering
-    			\includegraphics[width=6.5cm]{gfx/compton.png}
-    			\label{fig:compton}
-			\end{figure}
-	\end{columns}
+		\begin{columns}
+			\column{.4\textwidth}
+				\begin{enumerate}
+    				\item Synthesis
+    				\item Characterization
+    				\item Radiosensitization
+				\end{enumerate}
+			\column{.5\textwidth}
+				\begin{figure}[tb]
+    				\centering
+    				\includegraphics[width=6.5cm]{gfx/compton.png}
+    				\label{fig:compton}
+					\end{figure}
+			\end{columns}
 	\end{frame}
+%------------------------------------------------
 %------------------------------------------------
 \section{Synthesis GNP}
 %------------------------------------------------
-	\subsection{Chemical protocol}
-	    \begin{frame}{Chemical protocol}
-		\footlineextra{Source:\cite{R1}}
+%------------------------------------------------
+
+%------------------------------------------------
+\subsection{Chemical protocol}
+%------------------------------------------------
+
+	\begin{frame}{Chemical protocol}
+	\footlineextra{Source:\cite{R1}}
+
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.8\textwidth]{gfx/GNPReduction}
 		\end{figure}
+
 		\vspace{1cm}
+
 		\begin{columns}[c]
+		\column{.5\textwidth}
 
+		Gold ions: HAuCl$_4$ solution\\
+		Reducing agent: Na$_3$C$_6$H$_5$O$_7$
+		\column{.15\textwidth}
+		\end{columns}
 
-	\column{.5\textwidth}
-
-	Gold ions: HAuCl$_4$ solution\\
-	Reducing agent: Na$_3$C$_6$H$_5$O$_7$
-
-
-	\column{.15\textwidth}
-
-
-	\end{columns}
     \end{frame}
-\begin{frame}[t]
-\frametitle{Chemical protocol}
- \footlineextra{Source:\cite{R1}}
-\vspace{0.5cm}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.8\textwidth]{gfx/Reduction}
+
+	\begin{frame}[t]
+	\frametitle{Chemical protocol}
+	 \footlineextra{Source:\cite{R1}}
+
+		\vspace{0.5cm}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.8\textwidth]{gfx/Reduction}
+		\end{figure}
+		\vspace{0.5cm}
+		\centering
+		$6$Au$^3^+$ $+$ C$_6$H$_5$O$_7^{3^-}$ $+$ $15$OH$^-\rightarrow$ Au $+$ $6$CO$_2$ $+$ $10$H$_2$O
 	
-\end{figure}
-\vspace{0.5cm}
-\centering
-$6$Au$^3^+$ $+$ C$_6$H$_5$O$_7^{3^-}$ $+$ $15$OH$^-\rightarrow$ Au $+$ $6$CO$_2$ $+$ $10$H$_2$O
-\end{frame}
+	\end{frame}
 %------------------------------------------------
 \subsection{Size GNP}
-\begin{frame}[t]
-\frametitle{Size GNP}
+%------------------------------------------------
+	\begin{frame}[t]
+	\frametitle{Size GNP}
 
-	\begin{figure}[tb]
-    	\centering
-    	\includegraphics[width=0.8\textwidth]{gfx/SizeGNP}
-    \end{figure}
+		\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=0.8\textwidth]{gfx/SizeGNP}
+    	\end{figure}
    
-    \begin{columns}[c]
-
-
-	\column{.5\textwidth}
-
-
- 	Citrate $1$\%\\
-    \small $100$ml HAuCl$_4$ $0.01$\%
-	\column{.15\textwidth}
-
-
-	\end{columns}
+    	\begin{columns}[c]
+		\column{.5\textwidth}
+			Citrate $1$\%\\
+    		\small $100$ml HAuCl$_4$ $0.01$\%
+		\column{.15\textwidth}
+		\end{columns}
   
-\end{frame}
+	\end{frame}
+%------------------------------------------------
+%------------------------------------------------
 \section{Zeta Potential}
+%------------------------------------------------
+%------------------------------------------------
 
+%------------------------------------------------
 \subsection{Theory}
-\begin{frame}[t]
-\frametitle{Theory}
+%------------------------------------------------
+	\begin{frame}[t]
+	\frametitle{Theory}
+	\vspace{-1cm}
+		\begin{columns}
+			\column{.6\textwidth}
+
+				\begin{figure}[tb]
+    			\centering
+    			\includegraphics[width=\textwidth]{gfx/zeta}
+    			\end{figure}
+			\column{.4\textwidth}
+			\centering
+			Laser Dopler Gelelectrophoresis
+			\begin{figure}[tb]
+					\centering
+					\includegraphics[width=\textwidth]{gfx/Efield}
+					
+				\end{figure}	
+			$$\zeta=\frac{2 \eta v}{3 E \epsilon} \quad
+			|\zeta|\geq 30\text{mV}$$
+		\end{columns}
     
 
 
-\end{frame}
-\subsection{Measurements}
+	\end{frame}
+\subsection{Measurements Results}
 \begin{frame}[t]
-\frametitle{Measurements}
-    
-
+\frametitle{Measurement Results}
+    \vspace{0.5cm}
+		\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=0.8\textwidth]{gfx/zetaRes}
+    	\end{figure}
+    \vspace{0.5cm}
+    	\begin{columns}[c]
+		\column{.5\textwidth}
+			$\zeta$-potential
+		\column{.15\textwidth}
+		\end{columns}
 
 \end{frame}
 \section{Stabilisation}
 \subsection{Functionalisation PEG}
 \begin{frame}[t]
 \frametitle{Functionalisation PEG}
-    
+    \centering
+    Electrical repulsion $\rightarrow$ Steric repulsion\\
+    \begin{figure}[tb]
+    	\centering
+    	\includegraphics[width=0.7\textwidth]{gfx/PEG}
+    \end{figure}
+    \vspace{-1cm}
+    \begin{columns}
+    	\column{.5\textwidth}
+    	\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=0.9\textwidth]{gfx/PEG2}
+    	\end{figure}
+    	\column{.5\textwidth}
+    	\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=0.8\textwidth]{gfx/GNPPEG}
+    	\end{figure}
+    \end{columns}
 
 
 \end{frame}
