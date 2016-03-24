@@ -155,44 +155,34 @@ As. Bert De Roo, Matthias Vervaele, Stephanie Ser\'e
 	
 
 	\begin{frame}{Radiosensitization with GNP}
-	
 	\footlineextra{Source: https://en.wikibooks.org/wiki/Basic_Physics_of_Digital_Radiography/The_Patient}
-	\vspace{-1cm}
-	\begin{columns}
-	\column{.5\textwidth} 
-	\begin{figure}[tb]
-    			\centering
-    			\includegraphics[width=6.5cm]{gfx/photoel.png}
-    			\label{fig:photoel}
-			\end{figure}
-	\column{.4\textwidth}
-	Photoelectric absorption
+
+\vspace{0.5cm}
+		\begin{columns}
+			\column{.5\textwidth} 
+			Photoelectric absorption
+			\vspace{-.8cm}
+				\begin{figure}[tb]
+    				\centering
+    				\includegraphics[width=6.5cm]{gfx/photoel.png}
+    				\label{fig:photoel}
+				\end{figure}
+			Compton effect
+			\vspace{-.8cm}
+				\begin{figure}[tb]
+    				\centering
+    				\includegraphics[width=6.5cm]{gfx/compton.png}
+    				\label{fig:compton}
+				\end{figure}
+			\column{.4\textwidth}
+			\centering
+			\Large{Why gold?}\\
+			\normalsize
+			\begin{itemize}
+				\item High atomic number ($79$)\\
+    			 \item Bio compatible 
+			\end{itemize}
 	\end{columns}
-	
-		\vspace{-1cm}
-
-	\begin{columns}
-	\column{.5\textwidth} 
-	\begin{figure}[tb]
-    			\centering
-    			\includegraphics[width=6.5cm]{gfx/compton.png}
-    			\label{fig:compton}
-			\end{figure}
-	\column{.4\textwidth}
-	Compton effect
-	\end{columns}
-	\centering
-	\Large{Why gold?}
-	\normalsize
-		\begin{description}
-	
-
-
-   				\item High atomic number ($79$)
-    			\item Bio compatible
-
-
-   			\end{description}
 				
 	\end{frame}
 	
@@ -369,19 +359,35 @@ As. Bert De Roo, Matthias Vervaele, Stephanie Ser\'e
     		\centering
     		\includegraphics[width=0.7\textwidth]{gfx/PEG2}
     	\end{figure}
+    	\centering
+    	$20$k, $10$k, $5$k, $1$k
     	\column{.5\textwidth}
     	\begin{figure}[tb]
     		\centering
     		\includegraphics[width=0.8\textwidth]{gfx/GNPPEG}
     	\end{figure}
+
     \end{columns}
 \end{frame}
 \begin{frame}{UV-Vis spectroscopy}
-
+\begin{columns}
+	\column{.3\textwidth}
+	\begin{enumerate}
+		\item Add PEG
+		\item Size GNP
+		\item Add NaCl
+		\item Size GNP
+	\end{enumerate}
+	\column{.6\textwidth}
 	\begin{figure}[tb]
     	\centering
-    	\includegraphics[width=0.8\textwidth]{gfx/uvvis.png}
+    	\includegraphics[width=\textwidth]{gfx/uvvis.png}
     \end{figure}
+\end{columns}
+\vspace{.5cm}
+\centering
+	bigger size $\rightarrow$ too little PEG\\
+	same size $\rightarrow$ enough PEG
 \end{frame}
 
 \begin{frame}{GNPs of different sizes}
@@ -461,10 +467,11 @@ As. Bert De Roo, Matthias Vervaele, Stephanie Ser\'e
 \begin{frame}[t]\frametitle{Results}
 \centering
 \vspace{-.3cm}
-Functionalisation 20k PEG
 \begin{center}
 \begin{overprint}
         \only<1>{
+        \vspace{-.1cm}
+        Functionalisation no PEG 
         \vspace{-.1cm}
     \begin{figure}[tb]
     	\centering
@@ -473,8 +480,9 @@ Functionalisation 20k PEG
 }
 \pauze
 \only<2>{
+\vspace{-.1cm}
+Functionalisation 20k PEG
         \vspace{-.1cm}
-
 	\begin{figure}[tb]
 		\centering
 		\includegraphics[width=\textwidth]{gfx/DLSmPEG}
@@ -566,7 +574,7 @@ Functionalisation $15$nm $20$k PEG
 \column{0.5\textwidth}
 \begin{itemize}
     \item Stabilization with positively charged PEG
-    \item Radiosensitization
+    \item X-Rays
     \item Analyse effect on DNA
 		\item Solve problem with DLS
 \end{itemize}
