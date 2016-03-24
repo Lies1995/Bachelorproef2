@@ -1,7 +1,7 @@
 Kleuren
 
-Donker roos: 660A3C
+Donker roos: 660A3C    102,10,60
 Geel: BFAA13
-Licht roos: B20061
-Donker blauw: 0D747F
+Licht roos: B20061     178,0,97
+Donker blauw: 0D747F   13,116,127
 Licht blauw: 05E6FF
