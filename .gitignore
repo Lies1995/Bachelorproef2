@@ -1,1 +1,7 @@
 Masterproef_Lennaert.pdf
+*.aux
+*.log
+*.nav
+*.out
+*.toc
+*.pdf

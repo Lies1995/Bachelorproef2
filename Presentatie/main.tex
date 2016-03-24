@@ -64,33 +64,46 @@
 \footlineextra{}
 \makeatother
 
-\title[Katholieke Universiteit Leuven]{\Huge Title}
-\author{L. Deceuninck en H. Verhoeven} % Your name
+\title[Katholieke Universiteit Leuven]{\Huge Radiosensitization
+\\ using gold nanoparticles}
+\author[L. Deceuninck en H. Verhoeven]{} % Your name
 
 \date{}
 
 \begin{document}
 
-%\usebackgroundtemplate{%
- %\includegraphics[width=\paperwidth
- %]{images/backroundtitleslide}}
+\usebackgroundtemplate{%
+ \includegraphics[width=\paperwidth
+ ]{gfx/Back1.png}}
 \begin{frame}
+\begin{columns}
+\column{.5\textwidth}
+\Large
+Bachelor Thesis 2016\\
+As. Bert De Roo, Matthias Vervaele, Stephanie Ser\'e
+\column{.4\textwidth}
+\end{columns}
+
+\vspace{3cm}
 \begin{columns}[c]
 
 
-	\column{.25\textwidth}
-	\vspace{1cm}
+	\column{.6\textwidth}
+	\Huge
+	Radiosensitization
+	using gold nanoparticles\\
+	\vspace{.3cm}
+	\footnotesize{$25^{\text{th}}$ March}
+   % \titlepage
 
-    \titlepage
-
-	\column{.5\textwidth}
+	\column{.3\textwidth}
 
 
 	\end{columns}
 
 \end{frame}
 
-%\usebackgroundtemplate{images/backround}
+\usebackgroundtemplate{}
 \begin{frame}
 \begin{columns}[c]
 
@@ -165,17 +178,19 @@
 	\column{.4\textwidth}
 	Compton effect
 	\end{columns}
-	\center{
+	\centering
 	\Large{Why gold?}
 	\normalsize
 		\begin{description}
 	
 
-   				\item High atomic number (79)
-    			\item Low toxicity
+
+   				\item High atomic number ($79$)
+    			\item Bio compatible
+
 
    			\end{description}
-				}
+				
 	\end{frame}
 	
 	\begin{frame}{Targeting}
@@ -213,6 +228,7 @@
 	\end{frame}
 	
 	\begin{frame}{Goal}
+
 		\footlineextra{Source: http://www.kennislink.nl/publicaties/microkanaal-ordent-dna}
 
 	\begin{columns}
@@ -229,68 +245,71 @@
     			\label{fig:gel}
 			\end{figure}
 	\end{columns}
+
 	\end{frame}
+%------------------------------------------------
 %------------------------------------------------
 \section{Synthesis GNP}
 %------------------------------------------------
-	\subsection{Chemical protocol}
-	    \begin{frame}{Chemical protocol}
-		\footlineextra{Source:\cite{R1}}
+%------------------------------------------------
+
+%------------------------------------------------
+\subsection{Chemical protocol}
+%------------------------------------------------
+
+	\begin{frame}{Chemical protocol}
+	\footlineextra{Source:\cite{R1}}
+
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.8\textwidth]{gfx/GNPReduction}
 		\end{figure}
+
 		\vspace{1cm}
+
 		\begin{columns}[c]
+		\column{.5\textwidth}
 
+		Gold ions: HAuCl$_4$ solution\\
+		Reducing agent: Na$_3$C$_6$H$_5$O$_7$
+		\column{.15\textwidth}
+		\end{columns}
 
-	\column{.5\textwidth}
-
-	Gold ions: HAuCl$_4$ solution\\
-	Reducing agent: Na$_3$C$_6$H$_5$O$_7$
-
-
-	\column{.15\textwidth}
-
-
-	\end{columns}
     \end{frame}
-\begin{frame}[t]
-\frametitle{Chemical protocol}
- \footlineextra{Source:\cite{R1}}
-\vspace{0.5cm}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.8\textwidth]{gfx/Reduction}
+
+	\begin{frame}[t]
+	\frametitle{Chemical protocol}
+	 \footlineextra{Source:\cite{R1}}
+
+		\vspace{0.5cm}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.8\textwidth]{gfx/Reduction}
+		\end{figure}
+		\vspace{0.5cm}
+		\centering
+		$6$Au$^3^+$ $+$ C$_6$H$_5$O$_7^{3^-}$ $+$ $15$OH$^-\rightarrow$ Au $+$ $6$CO$_2$ $+$ $10$H$_2$O
 	
-\end{figure}
-\vspace{0.5cm}
-\centering
-$6$Au$^3^+$ $+$ C$_6$H$_5$O$_7^{3^-}$ $+$ $15$OH$^-\rightarrow$ Au $+$ $6$CO$_2$ $+$ $10$H$_2$O
-\end{frame}
+	\end{frame}
 %------------------------------------------------
 \subsection{Size GNP}
-\begin{frame}[t]
-\frametitle{Size GNP}
+%------------------------------------------------
+	\begin{frame}[t]
+	\frametitle{Size GNP}
 
-	\begin{figure}[tb]
-    	\centering
-    	\includegraphics[width=0.8\textwidth]{gfx/SizeGNP}
-    \end{figure}
+		\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=0.8\textwidth]{gfx/SizeGNP}
+    	\end{figure}
    
-    \begin{columns}[c]
-
-
-	\column{.5\textwidth}
-
-
- 	Citrate $1$\%\\
-    \small $100$ml HAuCl$_4$ $0.01$\%
-	\column{.15\textwidth}
-
-
-	\end{columns}
+    	\begin{columns}[c]
+		\column{.5\textwidth}
+			Citrate $1$\%\\
+    		\small $100$ml HAuCl$_4$ $0.01$\%
+		\column{.15\textwidth}
+		\end{columns}
   
+
 \end{frame}
 \begin{frame}{UV-Vis spectroscopy}
 
@@ -334,27 +353,82 @@ $6$Au$^3^+$ $+$ C$_6$H$_5$O$_7^{3^-}$ $+$ $15$OH$^-\rightarrow$ Au $+$ $6$CO$_2$
 			\end{overprint}
 \end{frame}
 
+
+%------------------------------------------------
+%------------------------------------------------
+
 \section{Zeta Potential}
+%------------------------------------------------
+%------------------------------------------------
 
+%------------------------------------------------
 \subsection{Theory}
-\begin{frame}[t]
-\frametitle{Theory}
+%------------------------------------------------
+	\begin{frame}[t]
+	\frametitle{Theory}
+	\vspace{-1cm}
+		\begin{columns}
+			\column{.6\textwidth}
+
+				\begin{figure}[tb]
+    			\centering
+    			\includegraphics[width=0.9\textwidth]{gfx/zeta}
+    			\end{figure}
+    			\vspace{-4cm}
+    			\begin{enumerate}
+					\item Surface Potential
+					\item Stern Potential
+					\item $\zeta$-Potential
+				\end{enumerate}
+				\vspace{2cm}
+			\column{.4\textwidth}
+
+			\centering
+			Laser Dopler Gelelectrophoresis
+			\begin{figure}[tb]
+					\centering
+					\includegraphics[width=\textwidth]{gfx/Efield}
+					
+				\end{figure}	
+			$$\zeta=\frac{2 \eta v}{3 E \epsilon} \quad
+			|\zeta|\geq 30\text{mV}$$
+		\end{columns}
     
 
 
-\end{frame}
-\subsection{Measurements}
+	\end{frame}
+\subsection{Measurements Results}
 \begin{frame}[t]
-\frametitle{Measurements}
-    
-
+\frametitle{Measurement Results}
+    \vspace{0.5cm}
+		\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=.9\textwidth]{gfx/zetaRes}
+    	\end{figure}
 
 \end{frame}
 \section{Stabilisation}
 \subsection{Functionalisation PEG}
 \begin{frame}[t]
 \frametitle{Functionalisation PEG}
-    
+
+    \begin{figure}[tb]
+    	\centering
+    	\includegraphics[width=0.7\textwidth]{gfx/PEG}
+    \end{figure}
+    \vspace{-1cm}
+    \begin{columns}
+    	\column{.5\textwidth}
+    	\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=0.7\textwidth]{gfx/PEG2}
+    	\end{figure}
+    	\column{.5\textwidth}
+    	\begin{figure}[tb]
+    		\centering
+    		\includegraphics[width=0.8\textwidth]{gfx/GNPPEG}
+    	\end{figure}
+    \end{columns}
 
 
 \end{frame}
@@ -367,11 +441,135 @@ $6$Au$^3^+$ $+$ C$_6$H$_5$O$_7^{3^-}$ $+$ $15$OH$^-\rightarrow$ Au $+$ $6$CO$_2$
 \subsection{DLS}
 \begin{frame}[t]
 \frametitle{Dynamic light scattering (DLS)}
-    
-
+\vspace{-.4cm}
+\begin{columns}
+	\column{.5\textwidth}
+	\begin{figure}[tb]
+		\centering
+		\includegraphics[width=.5\textwidth]{gfx/GNPPEG2}
+	\end{figure}
+	\column{.5\textwidth}
+	Hydrodynamic radius ($R_h$)\\
+	$\rightarrow$ Rayleigh scattering
+\end{columns}
+\vspace{-.7cm}
+\begin{columns}
+\column{.65\textwidth}
+\column{.35 \textwidth}
+	$$g(\tau)=\frac{\langle I(t)\rangle \langle I(t+\tau)\rangle}{\langle I(t)\rangle^2}$$\\
+	$$R_2<R_1$$
+\end{columns}
+\vspace{-2cm}
+\begin{columns}
+    \column{.5\textwidth}
+    \begin{figure}[tb]
+    	\centering
+    	\includegraphics[width=\textwidth]{gfx/intensity}
+    \end{figure}
+    \column{.5\textwidth}
+    \begin{figure}[tb]
+    	\centering
+    	\includegraphics[width=\textwidth]{gfx/correlation}
+    \end{figure}
+\end{columns}
 
 \end{frame}
+\begin{frame}[t]\frametitle{Results}
+\centering
+\vspace{-.3cm}
+Functionalisation 20k PEG
+\begin{center}
+\begin{overprint}
+        \only<1>{
+        \vspace{-.1cm}
+    \begin{figure}[tb]
+    	\centering
+    	\includegraphics[width=\textwidth]{gfx/DLSzPEG}
+    \end{figure}
+}
+\pauze
+\only<2>{
+        \vspace{-.1cm}
 
+	\begin{figure}[tb]
+		\centering
+		\includegraphics[width=\textwidth]{gfx/DLSmPEG}
+	\end{figure}
+}
+\end{overprint}
+\end{center}
+\end{frame}
+
+\begin{frame}[t]\frametitle{Results}
+    \centering\\
+Functionalisation $15$nm $20$k PEG
+
+    \begin{center}
+	\begin{overprint}
+        \only<1>{
+    \begin{table}[tb]
+    	\centering
+    
+    	\begin{tabular}{c|c}
+    	\hline
+    
+    	\hline
+    	\textbf{Proportion} & \textbf{Average} \\
+    	\footnotesize{(PEG/GNP)} & \\
+    	\hline
+    		$5/10$ & $51.93 \pm 2.76$ \\
+    		$6/10$ & $80.89 \pm 14.64$\\
+    		$7/10$ & $65.24 \pm 14.32$ \\
+    		$8/10$ & $83.91 \pm 18.42$\\
+    		$9/10$ &  \\
+    	\hline
+    
+    	\hline
+    	\end{tabular}
+    \end{table}
+    \vspace{.4cm}
+        Origional functionalisation $20$k ($8/10$)
+        \vspace{-.5cm}
+    \begin{figure}[tb]
+    	\centering
+    	\includegraphics[width=0.6\textwidth]{gfx/DLS}
+    \end{figure}
+
+    }
+    \pauze
+    \only<2>{
+    \begin{table}[tb]
+    	\centering
+    
+    	\begin{tabular}{c|c||c}
+    	\hline
+    
+    	\hline
+    	\textbf{Proportion} & \textbf{Average} & \textbf{Average}\\
+    	\footnotesize{(PEG/GNP)} & & \footnotesize{(centrifuge)}\\
+    	\hline
+    		$5/10$ & $51.93 \pm 2.76$ & $68.70 \pm 7.99$ \\
+    		$6/10$ & $80.89 \pm 14.64$ & $65.16 \pm 11.61$\\
+    		$7/10$ & $65.24 \pm 14.32$ & $57.73 \pm 7.72$\\
+    		$8/10$ & $83.91 \pm 18.42$ & $72.36 \pm 10.44$\\
+    		$9/10$ & & $56.54 \pm 3.91$\\
+    	\hline
+    
+    	\hline
+    	\end{tabular}
+    \end{table}
+    \vspace{.4cm}
+        Origional functionalisation $20$k ($8/10$)
+        \vspace{-.5cm}
+    \begin{figure}[tb]
+    	\centering
+    	\includegraphics[width=0.6\textwidth]{gfx/DLS}
+    \end{figure}
+    }
+    \end{overprint}
+    \end{center}
+
+\end{frame}
 % section characterization (end)
 \begin{frame}{Referenties}
 

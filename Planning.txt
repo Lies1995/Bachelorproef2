@@ -40,7 +40,7 @@ Functionaliseren met PEG--> Karakterisaties
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		2.5ml:
-				-[ ] DLS (x5, 5 runs)II
+				-[x] DLS (x5, 5 runs)II
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 
