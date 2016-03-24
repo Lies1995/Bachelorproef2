@@ -39,15 +39,16 @@ y17=met(8,:);
 y18=met(9,:);
 y19=met(10,:);
 y20=met(11,:);
-plot(x,y1,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('0D747F'))
+plot(x,y1,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('c7c7c7'))
 hold on
-plot(x,y4,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('B20061'))
-plot(x,y8,'LineWidth',3,'LineStyle','-','color',hex2rgb('BFAA13'))
-plot(x,y10,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('660A3C'))
-plot(x,y11,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('0D747F'))
-plot(x,y14,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('B20061'))
-plot(x,y18,'LineWidth',3,'LineStyle','--','color',hex2rgb('BFAA13'))
-plot(x,y20,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('660A3C'))
+plot(x,y4,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('c7c7c7'))
+plot(x,y10,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('c7c7c7'))
+plot(x,y11,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('c7c7c7'))
+plot(x,y14,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('c7c7c7'))
+plot(x,y20,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('c7c7c7'))
+plot(x,y8,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('BFAA13'))
+plot(x,y18,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('BFAA13'))
+
 
 xlabel('Wavelength ($nm$)')
 ylabel('Optical density')
