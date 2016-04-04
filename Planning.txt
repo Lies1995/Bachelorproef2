@@ -70,4 +70,27 @@ Functionaliseren met PEG--> Karakterisaties
 				-[ ] DLS (x5, 5 runs)
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)--> waren slecht (dus nieuw sample maken)
+
+Laatste Loodjes
+--> DLS metingen
+	9/10 kleine deeltjes
+	2 metingen van elk
+--> Grootte nanodeeltjes
+--> verslag schrijven
+--> positieve peg
+--> X'rays bestraling
+Vakantie:
+	--> verslag schrijven: 
+	Inleiding: Hannelore
+	materiaal en methoden: Lies
+	nadenken structuur resultaten: Hannelore
+
+Maandag:
+	--> DLS metingen (20 metingen)
+	--> grootte GNP met programma
+donderdag:
+	--> X-rays
+Maandag:
+	--> Gasthuisberg
+		gel elektrophorese
 				
