@@ -1,0 +1,12 @@
+Resultaten die in het verslag komen (wordt nog aan gewerkt)
+DLS
+UV-Vis
+-eventueel grafiek met verschillende nanodeeltjes, kan ook in tabelvorm
+-grafiek verschillende hoeveelheden PEG, met en zonder zout
+-eventueel grafiek van een meting van geagregeerde oplossing
+TEM
+-voorbeeld van een afbeelding, in grijs en in zwart-wit
+-tabel met groottes + fouten erop voor de 3 verschillende nanodeeltjes 
+ eventueel ook met PEG
+Zeta-potential
+-tabel met verschillende groottes GNP, met en zonder PEG
