@@ -1,0 +1,17 @@
+PWD /Users/lies/Documents/Bachelorproef/Verslag
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT Thesis_overview.tex
+OUTPUT Thesis_overview.log
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+INPUT Thesis_overview.aux
+INPUT Thesis_overview.aux
+OUTPUT Thesis_overview.aux
+OUTPUT Thesis_overview.pdf
+INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT Thesis_overview.aux
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
