@@ -1,8 +1,7 @@
-Planning 
+Planning
 
 Data Exporteren:
 	- [x] DLS 0.8 ml High accuracy 3 & 4 (& 2 --> 5 )
-
 	- [x] Zeta 0.8ml20k, 1.24 ml20k, 2.5ml20k  export to excel (10.3.16)
 	- [x] Zeta pdf 0.8ml, 1.24ml export programm (29.2.16)
 	- [x] DLS 15.3
@@ -12,7 +11,7 @@ Uitzoeken hoeveel PEG nodig: (UV-VIS; Zonder zout en met zout)
 	Do 10/03 -[x] 5k:  PEG/GNP=4/10
 	Ma 14/03 -[x] 1k:  PEG/GNP=4/100
 Functionaliseren met PEG--> Karakterisaties
-	Do 10/03 -[ ] 20k: 
+	Do 10/03 -[ ] 20k:
 		0.8ml:
 				-[x] DLS (x5, 5 runs) IIIII
 				-[x] UV-VIS (x1, 25 flashes)
@@ -29,10 +28,10 @@ Functionaliseren met PEG--> Karakterisaties
 					 --> gecentrifugeerd
 
 				-[x] UV-VIS (x1, 25 flashes)
-				-[x] Zeta Potentiaal (x1, 10 metingen)			
+				-[x] Zeta Potentiaal (x1, 10 metingen)
 	Do 10/03 -[ ] 10k:
 		0.8ml:
-				-[ ] DLS (x5, 5 runs) 
+				-[x] DLS (x5, 5 runs) 
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		1.24ml:
@@ -46,7 +45,7 @@ Functionaliseren met PEG--> Karakterisaties
 
 	Ma 14/03 -[ ] 5k:
 		0.8ml:
-				-[ ] DLS (x5, 5 runs) 
+				-[ ] DLS (x5, 5 runs)
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		1.24ml:
@@ -59,7 +58,7 @@ Functionaliseren met PEG--> Karakterisaties
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 	Ma 14/03 -[ ] 1k:
 		0.8ml:
-				-[ ] DLS (x5, 5 runs) 
+				-[ ] DLS (x5, 5 runs)
 				-[x] UV-VIS (x1, 25 flashes)
 				-[x] Zeta Potentiaal (x1, 10 metingen)
 		1.24ml:
@@ -73,24 +72,24 @@ Functionaliseren met PEG--> Karakterisaties
 
 Laatste Loodjes
 --> DLS metingen
-	9/10 kleine deeltjes
+	9/10 kleine deeltjes z centrifuge
 	2 metingen van elk
 --> Grootte nanodeeltjes
 --> verslag schrijven
 --> positieve peg
 --> X'rays bestraling
 Vakantie:
-	--> verslag schrijven: 
+	--> verslag schrijven:
 	Inleiding: Hannelore
 	materiaal en methoden: Lies
 	nadenken structuur resultaten: Hannelore
 
 Maandag:
-	--> DLS metingen (20 metingen)
+	--> DLS metingen (18 metingen)
 	--> grootte GNP met programma
+	--> UV
 donderdag:
 	--> X-rays
 Maandag:
 	--> Gasthuisberg
 		gel elektrophorese
-				
