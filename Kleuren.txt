@@ -1,7 +1,48 @@
 Kleuren
 
+lichtroos basiskleur: 
 Donker roos: 660A3C    102,10,60
 Geel: BFAA13
-Licht roos: B20061     178,0,97
+Licht roos: B20061     178,0,97 —> Hoofdkleur
 Donker blauw: 0D747F   13,116,127
 Licht blauw: 05E6FF
+
+geel= 15nm
+licht roos: 30nm
+donker blauw: 45nm
+
+geel shades:
+BFAA13
+7F710D
+3F3906
+CCB514
+A59310
+9E8D10
+5E5409
+DEC516
+EBD117
+C4AF14
+
+Rose shades:
+72003E
+FE008B
+B20061
+BF0068
+980053
+450026
+D10072
+850048
+91004F
+6B003A
+
+Blauw shades
+063A3F
+15BACB
+0D747F
+0E808C
+0A5D65
+031A1C
+119AA8
+09545C
+0B5F69
+073D42
