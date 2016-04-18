@@ -39,6 +39,6 @@ UV-Vis
 	GNP_17.03.16_1: 1k en 10k PEG met alle GNP's (zonder zout)
 	GNP_17.03.16_2: 1k en 10k PEG met alle GNP's (met zout) 
 	GNP_alle_1k: 1k PEG met alle GNP's GNP/PEG=4/100 (met en zonder zout) 
-	GNP_alle_5k: 5k PEG met alle GNP's GNP/PEG=6/10 (met en zonder zout) 
+	GNP_alle_10k: 10k PEG met alle GNP's GNP/PEG=6/10 (met en zonder zout) 
 	
 	

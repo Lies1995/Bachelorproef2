@@ -2,14 +2,15 @@ set(0,'defaulttextinterpreter','latex')
 set(0,'defaultAxesFontSize', 15)
 set(groot, 'defaultAxesTickLabelInterpreter','latex'); 
 set(groot, 'defaultLegendInterpreter','latex');
- fig=figure;
-   set(fig,'Position', [262 191 900 440])
 
-  xlRange = 'B1:WD1';
-  Range='B3:WD6';
-  x=xlsread(fullfile('UV-VIS','10.03.16','GNP_2.5_5k.xlsx'),xlRange);
-  zonder=xlsread(fullfile('UV-VIS','10.03.16','GNP_2.5_5k.xlsx'),'Zonder zout',Range);
-  met=xlsread(fullfile('UV-VIS','10.03.16','GNP_2.5_5k.xlsx'),'Met zout',Range);
+fig=figure;
+   set(fig,'Position', [262 191 900 440])
+xlRange='B1:WD1';
+Range='B4:WD7';
+x=xlsread(fullfile('UV-VIS','10.03.16','GNP_2.5_10k.xlsx'),'Zonder zout',xlRange);
+zonder=xlsread(fullfile('UV-VIS','10.03.16','GNP_2.5_10k.xlsx'),'Zonder zout',Range);
+met=xlsread(fullfile('UV-VIS','10.03.16','GNP_2.5_10k.xlsx'),'Met zout',Range);
+
   y1=zonder(1,:);
   y2=zonder(2,:);
   y3=zonder(3,:);
@@ -27,9 +28,9 @@ set(groot, 'defaultLegendInterpreter','latex');
   plot(x,y6,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('B20061'))
   plot(x,y7,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('BFAA13'))
   plot(x,y8,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('660A3C'))
+
   
-   xlabel('Wavelength ($nm$)')
+     xlabel('Wavelength ($nm$)')
    ylabel('Optical density')
    h=legend('Without NaCl','With NaCl' )
 set(h,'Interpreter','latex')
-  
