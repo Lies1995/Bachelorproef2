@@ -31,3 +31,5 @@ plot(x,y9,'LineWidth',.5,'LineStyle','-','color',hex2rgb('0B5F69'))
 plot(x,y10,'LineWidth',.5,'LineStyle','-','color',hex2rgb('073D42'))
 plot(x,y11,'LineWidth',2,'LineStyle','-','color','k')
 
+xlabel('Wavelength ($nm$)')
+ylabel('Optical density')
