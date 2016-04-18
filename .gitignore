@@ -4,6 +4,8 @@ Masterproef_Lennaert.pdf
 *.nav
 *.out
 *.toc
+*.fdb_latexmk
+*.fls
 
 Iconr
 Measurement_Results/UV-VIS/7.03.16/~$GNP_2.5_20k_2.xlsx
