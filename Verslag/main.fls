@@ -163,6 +163,12 @@ INPUT content/ResultsAndDiscussion.tex
 INPUT gfx/DlsALl.png
 INPUT ./gfx/DlsALl.png
 INPUT ./gfx/DlsALl.png
+INPUT gfx/UVVIS_20k_1.png
+INPUT ./gfx/UVVIS_20k_1.png
+INPUT ./gfx/UVVIS_20k_1.png
+INPUT gfx/UVVIS_alle_20k.png
+INPUT ./gfx/UVVIS_alle_20k.png
+INPUT ./gfx/UVVIS_alle_20k.png
 INPUT content/Conclusion.tex
 INPUT content/Conclusion.tex
 INPUT content/Appendix.tex
