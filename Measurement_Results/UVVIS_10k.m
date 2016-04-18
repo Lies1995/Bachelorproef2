@@ -1,5 +1,8 @@
 set(0,'defaulttextinterpreter','latex')
 set(0,'defaultAxesFontSize', 15)
+set(groot, 'defaultAxesTickLabelInterpreter','latex'); 
+set(groot, 'defaultLegendInterpreter','latex');
+
 fig=figure;
    set(fig,'Position', [262 191 900 440])
 xlRange='B1:WD1';

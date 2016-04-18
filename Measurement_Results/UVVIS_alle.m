@@ -1,5 +1,8 @@
 set(0,'defaulttextinterpreter','latex')
 set(0,'defaultAxesFontSize', 15)
+set(groot, 'defaultAxesTickLabelInterpreter','latex'); 
+set(groot, 'defaultLegendInterpreter','latex');
+
 
 ml=[0.8, 1.24, 2.5];
 
