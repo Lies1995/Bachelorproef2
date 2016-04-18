@@ -23,9 +23,11 @@
 
 \usepackage[version=3]{mhchem} % Package for chemical equation typesetting
 \usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
-\usepackage{graphicx} % Required for the inclusion of images
+
 \usepackage{natbib} % Required to change bibliography style to APA
-\usepackage{amsmath} % Required for some math elements
+\usepackage[labelfont=bf]{caption}
+\usepackage{amsmath}
+\usepackage{graphicx}
 \usepackage{geometry}
 \geometry{
 a4paper,
@@ -33,6 +35,7 @@ left=30mm,
 right=30mm,
 top=20mm,
 }
+
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 
 \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
@@ -75,6 +78,7 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 \input{content/MaterialAndMethods}
 \input{content/ResultsAndDiscussion}
 \input{content/Conclusion}
+\input{content/Appendix}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
