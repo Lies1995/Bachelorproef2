@@ -1,4 +1,4 @@
- 	Area	Circ.	AR	Round	Solidity	Diameter	Volume
+ 	Area	Circ,	AR	Round	Solidity	Diameter	Volume
 er uit gehaald
-2	139.932	0.839	1.075	0.930	0.942	13.348	1245.198
-3	136.699	0.852	1.280	0.781	0.944	13.193	1202.298
+2	139,932	0,839	1,075	0,930	0,942	13,348	1245,198
+3	136,699	0,852	1,280	0,781	0,944	13,193	1202,298
