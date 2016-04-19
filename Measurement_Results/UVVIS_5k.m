@@ -29,7 +29,7 @@ set(groot, 'defaultLegendInterpreter','latex');
   plot(x,y8,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('660A3C'))
   
    xlabel('Wavelength ($nm$)')
-   ylabel('Optical density')
+   ylabel('Absorbance (OD)')
    h=legend('Without NaCl','With NaCl' )
 set(h,'Interpreter','latex')
   

@@ -41,6 +41,6 @@ ml=[0.8, 1.24, 2.5];
    
 
    xlabel('Wavelength ($nm$)')
-   ylabel('Optical density')
+   ylabel('Absorbance (OD)')
    h=legend('Without NaCl','With NaCl' )
 set(h,'Interpreter','latex')

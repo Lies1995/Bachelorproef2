@@ -2,6 +2,8 @@ set(0,'defaulttextinterpreter','latex');
 set(0,'defaultAxesFontSize', 20);
 set(groot, 'defaultAxesTickLabelInterpreter','latex'); 
 set(groot, 'defaultLegendInterpreter','latex');
+ fig=figure;
+   set(fig,'Position', [262 191 900 440])
 
 xlRange='A567:V691'
 A=xlsread(fullfile('Zeta','29.02.16','GNP_0.8.xlsx'),xlRange);
@@ -31,5 +33,5 @@ plot(x,y9,'LineWidth',.5,'LineStyle','-','color',hex2rgb('0B5F69'))
 plot(x,y10,'LineWidth',.5,'LineStyle','-','color',hex2rgb('073D42'))
 plot(x,y11,'LineWidth',2,'LineStyle','-','color','k')
 
-xlabel('Wavelength ($nm$)')
-ylabel('Optical density')
+xlabel('Mobility ($\mu m\cdot cm / V \cdot s$)')
+ylabel('Normalized Intensity')

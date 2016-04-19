@@ -31,6 +31,6 @@ met=xlsread(fullfile('UV-VIS','10.03.16','GNP_2.5_10k.xlsx'),'Met zout',Range);
 
   
      xlabel('Wavelength ($nm$)')
-   ylabel('Optical density')
+   ylabel('Absorbance (OD)')
    h=legend('Without NaCl','With NaCl' )
 set(h,'Interpreter','latex')
