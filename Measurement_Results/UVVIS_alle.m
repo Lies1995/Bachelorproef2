@@ -23,4 +23,4 @@ ml=[0.8, 1.24, 2.5];
    plot(519,0.835,'Marker','*','MarkerEdgeColor',hex2rgb('BFAA13'),'MarkerSize', 6)
    
       xlabel('Wavelength ($nm$)')
-   ylabel('Optical density')
+   ylabel('Absorbance (OD)')
