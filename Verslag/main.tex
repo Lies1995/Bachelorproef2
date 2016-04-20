@@ -23,7 +23,7 @@
 
 \usepackage[version=3]{mhchem} % Package for chemical equation typesetting
 \usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
-
+\usepackage{wrapfig}
 \usepackage{natbib} % Required to change bibliography style to APA
 \usepackage[labelfont=bf]{caption}
 \usepackage{amsmath}
@@ -75,9 +75,13 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
   Results And Discussion
 
 \input{content/Introduction}
+\newpage
 \input{content/MaterialAndMethods}
+\newpage
 \input{content/ResultsAndDiscussion}
+\newpage
 \input{content/Conclusion}
+\newpage
 \input{content/Appendix}
 
 %----------------------------------------------------------------------------------------
@@ -86,7 +90,7 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 
 \bibliographystyle{plain}
 
-\bibliography{sample}
+\bibliography{content/bib}
 
 %----------------------------------------------------------------------------------------
 
