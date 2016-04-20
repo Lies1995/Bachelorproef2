@@ -166,6 +166,9 @@ INPUT ./gfx/reduction.png
 INPUT gfx/PEG.png
 INPUT ./gfx/PEG.png
 INPUT ./gfx/PEG.png
+INPUT gfx/plasmon.png
+INPUT ./gfx/plasmon.png
+INPUT ./gfx/plasmon.png
 INPUT content/ResultsAndDiscussion.tex
 INPUT content/ResultsAndDiscussion.tex
 INPUT gfx/DlsALl.png

@@ -32,9 +32,10 @@ Besides the targeting to the tumor the PEG-coating also provides steric repulsio
 To measure the radius of the gold nanoparticle, images of the colloid are created with an transmission electron microscope (TEM). These images are then analysed to obtain a statistical estimate of the particle radius..
 TO BE COMPLETED
 \subsubsection{Relative size}
-A typical characterization technique of GNP is a measurement of the abosorbance spectrum in the ultra-violet and visible spectrum. The peak in the spectrum provides information about the core diameter of the particles. \\
+A typical characterization technique of GNP is a measurement of the abosorbance spectrum in the ultra-violet and visible spectrum; UV-VIS spectroscopy. The peak in the spectrum provides information about the core diameter of the particles. \\
 \begin{figure}
-  \includegrapics[width=0.8\textwidth]{gfx/plasmon}
+  \centering
+  \includegraphics[width=0.5\textwidth]{gfx/plasmon}
   \caption{Schematic representation of surface plasmons}
   \label{fig:plasmon}
 \end{figure}
@@ -42,3 +43,11 @@ When electromagnetic radiation falls in on the surface of a particle the oscilla
 From the quantitative result of the absorbance peak approximate results for the diameter of the particles can be obtained. These are in relatively good agreement with results from TEM images \cite{uv-vis-size}. In this project the absorbance spectra of different particles will be compared to analyze the size of the samples relative to each other. A smaller particle will create a higher restoring force which results in a higher surface plasmon frequency (see figure )%#TODO.
 \\
 This technique will also be used to determine the necessary proportion PEG vs. GNP to create a stable colloid, see section \ref{subsubsec:Funct}. If after the addition of NaCl the absorbance peak has shifted to higher wavelengths (lower frequencies) or a secondary peak arises, aggregation of the nanoparticles has taken place and more PEG is needed.
+\subsubsection{Hydrodynamic Radius}
+For the practical applications the GNP will be coated with a PEG layer both for stabilization and targetting to the tumor. It's important to know the total radius of the particle (Gold plus coating) since this will determine the diffusive properties of the particles. The total radius of the particle plus layer (gold $+$ PEG or gold $+$ H$_2$O) is called the hydrodynamic radius (R$_h$). This radius can be measured using the dynamic light scattering (DLS) technique.
+The DLS technique is based on the Rayleigh scattering of incident infrared light by the gold nanoparticles. The GNP in the colloid perform a brownian motion. Due to this random motion the total intensity of the scattered light will vary over time. If the particles have a smaller R$_h$ they will move faster and the total intensity will vary faster. The variation of the total intensity over time is thus a measure of the hydrodynamic radius of the particles. \\
+To obtain a quantitative result of the hydrodynamic radius a mathematical analysis is performed which first defines an normalized autocorrelation function using the measured values of the total intensity $I(t)$ over time.
+\begin{equation}
+  g^2(q,\tau)=\frac{I(t)I(t+\tau)>}{<I(t)>^2}
+\end{equation}
+where $q$ is the wavevector of the scattered light. TO BE CONTINUED
