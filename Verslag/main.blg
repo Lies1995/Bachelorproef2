@@ -9,9 +9,13 @@ Warning--I didn't find a database entry for "radiobiology"
 Warning--I didn't find a database entry for "targeting"
 Warning--I didn't find a database entry for "biocompatible"
 Warning--I didn't find a database entry for "expevidence"
+Warning--I didn't find a database entry for "expevidence1"
+Warning--I didn't find a database entry for "expevidence2"
+Warning--I didn't find a database entry for "radtype"
+Warning--I didn't find a database entry for "Knoll"
 You've used 5 entries,
             2118 wiz_defined-function locations,
-            533 strings with 4655 characters,
+            538 strings with 4696 characters,
 and the built_in function-call counts, 1515 in all, are:
 = -- 156
 > -- 53
@@ -50,4 +54,4 @@ warning$ -- 0
 while$ -- 18
 width$ -- 6
 write$ -- 54
-(There were 6 warnings)
+(There were 10 warnings)
