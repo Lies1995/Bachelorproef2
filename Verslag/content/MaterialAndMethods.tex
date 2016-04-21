@@ -15,9 +15,9 @@ As mentioned above the Turkevich method is used. Sodiumcitrate ($NA_3C_6H_5O_7$)
 
 \subsubsection{Functionalisation with PEG}
 \label{subsubsec:Funct}
-\begin{wrapfigure}{l!}{0.6\textwidth}
+\begin{wrapfigure}{l!}{0.5\textwidth}
   \begin{center}
-  \includegraphics[width=0.55\textwidth]{gfx/PEG}
+  \includegraphics[width=0.45\textwidth]{gfx/PEG}
 \end{center}
 \caption{The synthesis of methoxy-PEG$_n$ thiol}
 \label{fig:PEG}
@@ -31,23 +31,81 @@ Besides the targeting to the tumor the PEG-coating also provides steric repulsio
 \subsubsection{Core Diameter}
 To measure the radius of the gold nanoparticle, images of the colloid are created with an transmission electron microscope (TEM). These images are then analysed to obtain a statistical estimate of the particle radius..
 TO BE COMPLETED
+\begin{figure}{r}
+\centering
+ \includegraphics[width=0.45\textwidth]{gfx/plasmon}
+ \caption{Schematic representation of surface plasmons}
+ \label{fig:plasmon}
+\end{figure}
+
 \subsubsection{Relative size}
 A typical characterization technique of GNP is a measurement of the abosorbance spectrum in the ultra-violet and visible spectrum; UV-VIS spectroscopy. The peak in the spectrum provides information about the core diameter of the particles. \\
-\begin{figure}
-  \centering
-  \includegraphics[width=0.5\textwidth]{gfx/plasmon}
-  \caption{Schematic representation of surface plasmons}
-  \label{fig:plasmon}
-\end{figure}
+
 When electromagnetic radiation falls in on the surface of a particle the oscillating electric field causes the surface electron cloud to oscillate in the opposite direction (see figure \ref{fig:plasmon}). One side of the particle becomes negatively charged whereupon the other side becomes positive since the particles are netto neutral. This distribution of charge establishes a restoring force which causes the electron cloud to oscillate back, this time with a frequency depending on the geometrical properties of the particle; the natural surface plasmon frequency. If this frequency is equal to the frequency of the incident radiation the resonance condition is satisfied creating a peak in the absorbance spectrum. \\
 From the quantitative result of the absorbance peak approximate results for the diameter of the particles can be obtained. These are in relatively good agreement with results from TEM images \cite{uv-vis-size}. In this project the absorbance spectra of different particles will be compared to analyze the size of the samples relative to each other. A smaller particle will create a higher restoring force which results in a higher surface plasmon frequency (see figure )%#TODO.
 \\
 This technique will also be used to determine the necessary proportion PEG vs. GNP to create a stable colloid, see section \ref{subsubsec:Funct}. If after the addition of NaCl the absorbance peak has shifted to higher wavelengths (lower frequencies) or a secondary peak arises, aggregation of the nanoparticles has taken place and more PEG is needed.
+
 \subsubsection{Hydrodynamic Radius}
-For the practical applications the GNP will be coated with a PEG layer both for stabilization and targetting to the tumor. It's important to know the total radius of the particle (Gold plus coating) since this will determine the diffusive properties of the particles. The total radius of the particle plus layer (gold $+$ PEG or gold $+$ H$_2$O) is called the hydrodynamic radius (R$_h$). This radius can be measured using the dynamic light scattering (DLS) technique.
-The DLS technique is based on the Rayleigh scattering of incident infrared light by the gold nanoparticles. The GNP in the colloid perform a brownian motion. Due to this random motion the total intensity of the scattered light will vary over time. If the particles have a smaller R$_h$ they will move faster and the total intensity will vary faster. The variation of the total intensity over time is thus a measure of the hydrodynamic radius of the particles. \\
-To obtain a quantitative result of the hydrodynamic radius a mathematical analysis is performed which first defines an normalized autocorrelation function using the measured values of the total intensity $I(t)$ over time.
+For the practical applications the GNP will be coated with a PEG layer both for stabilization and targetting to the tumor. It's important to know the total radius of the particle (Gold plus coating) since this will determine the diffusive properties of the particles.
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.35\textwidth]{gfx/hydroR}
+  \end{center}
+  \caption{A gold nanoparticle with PEG coating to indicate the hydrodynamic radius $R_h$}
+  \label{fig:hydroR}
+\end{wrapfigure}
+The total radius of the particle plus layer (gold $+$ PEG or gold $+$ H$_2$O) is called the hydrodynamic radius (R$_h$), see figure \ref{fig:hydroR}. This radius can be measured using the dynamic light scattering (DLS) technique
+The DLS technique is based on the Rayleigh scattering of incident infrared light by the gold nanoparticles. \\ The GNP in the colloid perform a brownian motion. Due to this random motion the total intensity of the scattered light will vary over time. If the particles have a smaller R$_h$ they will move faster and the total intensity will vary accordingly. The variation of the total intensity over time is thus a measure of the hydrodynamic radius of the particles. \\
+\begin{figure}
+  \centering
+  \begin{subfigure}[t]{0.48\textwidth}
+    \includegraphics[width=\textwidth]{gfx/DLSint}
+    \caption{}
+    \label{fig:DLSint}
+  \end{subfigure}
+  \quad
+  \begin{subfigure}[t]{0.48\textwidth}
+    \includegraphics[width=\textwidth]{gfx/DLScor}
+    \caption{}
+    \label{fig:DLScor}
+  \end{subfigure}
+  \caption{The total scattered intensity (a) and autocorrelation function (b) for two different particles. Due to faster brownian motion of the smaller particle it's intensity variation in time is higher and consequently have a steeper autocorrelation function.}
+\end{figure}
 \begin{equation}
-  g^2(q,\tau)=\frac{I(t)I(t+\tau)>}{<I(t)>^2}
+  \mean{R^2(t)}=6Dt
 \end{equation}
-where $q$ is the wavevector of the scattered light. TO BE CONTINUED
+with D the diffusion constant
+\begin{equation}
+  D=\frac{k_bT}{6\pi\eta R_h}
+\end{equation}
+This random motion causes the total scattered intensity $I(t)$ to fluctuate over time and a normalized autocorrelation function is defined which compares the intensity at time t with the intensity a time interval $\tau$ later (see figure).
+%#TODO
+\begin{equation}
+  g_2(\tau)=\frac{\mean{I(t)I(t+\tau)}}{\mean{I(t)}^2}
+  \label{eq:autocor}
+\end{equation}
+For a monodisperse sample this function can be written in function of the diffusion constant
+%http://www.wyatt.com/library/theory/dynamic-light-scattering-theory.html
+\begin{equation}
+  g_2(\tau)=1+\beta|g_1(q,\tau)|^2 \quad \text{with }g_1(q,\tau)=\text{exp}(-q^2\mean{R^2(\tau)})=\text{exp}(-q^26D\tau)
+  \label{eq:autocorR}
+\end{equation}
+where $\beta$ is an instrumental factor and $q$ the wavevector of the scattered light \cite{DLSBook} % #TODO
+\begin{equation}
+  q=\frac{4 \pi n}{\lambda_0}\text{sin}(\frac{\theta}{2})
+\end{equation}
+with $n$ the refractive index of the medium, $\lambda_0$ the wavelength of the incident radiation and $\theta$ the scattering angle.
+Equation \ref{eq:autocorR} clearly shows that if the particles are smaller the autocorrelation function will be steeper (see figure \ref{fig:DLScor}). This is in agreement with the more rapid variation of the scattered intensity for smaller particles.
+For a polydisperse sample the same equation holds only now $g_1(q,\tau)$ is the sum of all exponential decays measured in the autocorrelation function.
+The specific analysis is executed by the \emph{Vasoc- particle size analyzer} Nano-Q software using the Pade-Laplace method \cite{DLSManual}.
+\subsubsection{Surface Potential}
+The last characterization of the particles in this project is the determination of the surface potential. When no functionalization has happened the citrate ions (see section \ref{subsubsec:Funct}) surround the particles and the surface potential should be negative. If the particles are coated with an methoxy-PEG$_n$ thiol layer no surface potential should be present.\\
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.35\textwidth]{gfx/zeta}
+  \end{center}
+  \caption{Schematic representation of the double layer configuration of the particles in a colloid}
+  \label{fig:zeta}
+\end{wrapfigure}
+As figure \ref{fig:zeta} shows the naked gold particles in solution have one tightly bound layer of negative ions (citrate ions) and a second less tightly bound layer of positive and negative ions. The surface potential of this second layer will determine the electrostatic properties of the particles, it is called the $\zeta$-potential.

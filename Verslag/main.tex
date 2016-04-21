@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % University/School Laboratory Report
 % LaTeX Template
 % Version 3.1 (25/3/14)
@@ -26,7 +26,8 @@
 \usepackage{wrapfig}
 \usepackage{natbib} % Required to change bibliography style to APA
 \usepackage[labelfont=bf]{caption}
-\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{geometry}
 \geometry{
@@ -39,7 +40,7 @@ top=20mm,
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 
 \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
-
+\def\mean#1{\left< #1 \right>}
 %\usepackage{times} % Uncomment to use the Times New Roman font
 
 %----------------------------------------------------------------------------------------
@@ -72,8 +73,6 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 %----------------------------------------------------------------------------------------
 %Content
 %----------------------------------------------------------------------------------------
-  Results And Discussion
-
 \input{content/Introduction}
 \newpage
 \input{content/MaterialAndMethods}
