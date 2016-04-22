@@ -1,20 +1,108 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{TEM}
 Main steps of preparing of tissue specimens for a light microscopy.
 \newblock
   \url{http://intranet.tdmu.edu.ua/data/kafedra/internal/histolog/classes_stud/en/stomat/ptn/1/01%20Microscope.%20Microscopic%20equipment.%20Histologic%20technique.%20Cytology.%20General%20structure%20of%20the%20cell.%20Superficial%20complex.htm}.
 
+\bibitem{radtype}
+A.Zuppinger.
+\newblock Particle beam therapy.
+\newblock {\em Proceeding of the Royal Society of Medicine}, 58:150--160, 1965.
+
+\bibitem{Jain}
+S.~Jain D.~Hirst and J.~O'Sullivan.
+\newblock Polyethylene glycol functionalized gold nanoparticles: The influence
+  of capping density on stability in various media.
+\newblock {\em Gold Bulletin}, 44(2):99--105, 2011.
+
+\bibitem{targeting}
+S.~Jain D.~Hirst and J.~O’Sullivan.
+\newblock Gold nanoparticles as novel agents for cancer therapy.
+\newblock {\em The British journal of radiology}, 85(1010):101--113, 2012.
+
+\bibitem{celbio}
+P.~Van Dijckl.
+\newblock {\em Celbiologie en biochemie}.
+\newblock Acco, 2013.
+
+\bibitem{expevidence2}
+F.~Shan E.~A.~Foley, J.~Carter and T.~Guo.
+\newblock Enhanced relaxation of nanoparticle-bound supercoiled dna in x-ray
+  radiation.
+\newblock {\em Chemical communications (Cambridge England)}, 25:3192--3194,
+  2005.
+
+\bibitem{expevidence1}
+D.~M.~Herold et~al.
+\newblock Gold microspheres: a selective technique for producing biologically
+  effective dose enhancement.
+\newblock {\em International journal of radiation biology}, 76(10):1357--1364,
+  2000.
+
+\bibitem{Goldbul}
+J.~Manson et~al.
+\newblock Polyethylene glycol functionalized gold nanoparticles: The influence
+  of capping density on stability in various media.
+\newblock {\em Gold Bulletin}, 44(2):99--105, 2011.
+
+\bibitem{Ken}
+L.C.~Kennedy et~al.
+\newblock A new era for cancer treatment: Gold-nanoparticle-mediated thermal
+  therapies.
+\newblock {\em Small}, 7:169--183, 2011.
+
+\bibitem{Tiwari}
+P.M.~Tiwari et~al.
+\newblock Functionalized gold nanoparticles and their biomedical applications.
+\newblock {\em Nanomaterials}, 1(1):31--63, 2011.
+
+\bibitem{biocompatible}
+R.~Shukla et~al.
+\newblock Biocompatibility of gold nanoparticles and their endocytotic fate
+  inside the cellular compartment: A microscopic overview.
+\newblock {\em Langmuir}, 21:10644--10654, 2005.
+
+\bibitem{FEI}
+FEI.
+\newblock An introduction to electron microscopy, 2010.
+
 \bibitem{gold-surfur}
 Hannu Hakkinen.
 \newblock The gold-sulfur interface at the nanoscale.
 \newblock {\em nature chemistry}, 4:443--455, 2012.
+
+\bibitem{imaginis}
+Imaginis.
+\newblock Cancer treatment with radiation therapy.
+\newblock
+  \url{http://www.imaginis.com/radiotherapy/cancer-treatment-with-radiation-therapy}.
+
+\bibitem{expevidence}
+D.~Slatkin J.~Hainfeld and H.~Smilowitz.
+\newblock The use of gold nanoparticles to enhance radiotherapy in mice.
+\newblock {\em Physics in medicine and biology}, 49(18):N309--N315, 2008.
 
 \bibitem{Turkevich}
 Peter Copper~Stevenson John~Turkevich and James Hillier.
 \newblock A study of the nucleation and growth processes in the synthesis of
   colloidal gold.
 \newblock {\em Discussion of the Faraday Society}, 11:55--75, 1951.
+
+\bibitem{radiobiology}
+M.~Joiner and A.~Van~Der Kogel.
+\newblock {\em Basic Clinical Radiobiology}.
+\newblock Hodder Education, 2009.
+
+\bibitem{Knoll}
+G.~F. Knoll.
+\newblock {\em Radiation Detection and Measurement}.
+\newblock Wiley, 2010.
+
+\bibitem{WHO}
+World~Health Organization.
+\newblock Cancer fact sheet.
+\newblock \url{http://www.who.int/mediacentre/factsheets/fs297/en/}.
 
 \bibitem{DLSManual}
 Vasco~Particle size analyser.

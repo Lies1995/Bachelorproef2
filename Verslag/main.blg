@@ -3,59 +3,66 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: content/bib.bib
-Warning--I didn't find a database entry for "WHO"
-Warning--I didn't find a database entry for "imaginis"
-Warning--I didn't find a database entry for "radiobiology"
-Warning--I didn't find a database entry for "targeting"
-Warning--I didn't find a database entry for "biocompatible"
-Warning--I didn't find a database entry for "expevidence"
-Warning--I didn't find a database entry for "expevidence1"
-Warning--I didn't find a database entry for "expevidence2"
-Warning--I didn't find a database entry for "radtype"
-Warning--I didn't find a database entry for "Knoll"
-Warning--I didn't find a database entry for "celbio"
-Warning--I didn't find a database entry for "FEI"
-Warning--I didn't find a database entry for "Goldbul"
+Repeated entry---line 165 of file content/bib.bib
+ : @misc{TEM
+ :          ,
+I'm skipping whatever remains of this entry
+Name 1 in "D. Hirst, S. Jain, and J. O’Sullivan" has a comma at the end for entry targeting
+while executing---line 1049 of file plain.bst
+Name 1 in "J. Hainfeld, D. Slatkin, and H. Smilowitz" has a comma at the end for entry expevidence
+while executing---line 1049 of file plain.bst
+Name 1 in "E. A. Foley, J. Carter, F. Shan, and T. Guo" has a comma at the end for entry expevidence2
+while executing---line 1049 of file plain.bst
+Name 1 in "D. Hirst, S. Jain, and J. O'Sullivan" has a comma at the end for entry Jain
+while executing---line 1049 of file plain.bst
 Warning--to sort, need author or key in TEM
-You've used 6 entries,
+Name 1 in "D. Hirst, S. Jain, and J. O'Sullivan" has a comma at the end for entry Jain
+while executing---line 1090 of file plain.bst
+Name 1 in "D. Hirst, S. Jain, and J. O’Sullivan" has a comma at the end for entry targeting
+while executing---line 1090 of file plain.bst
+Name 1 in "E. A. Foley, J. Carter, F. Shan, and T. Guo" has a comma at the end for entry expevidence2
+while executing---line 1090 of file plain.bst
+Name 1 in "J. Hainfeld, D. Slatkin, and H. Smilowitz" has a comma at the end for entry expevidence
+while executing---line 1090 of file plain.bst
+You've used 22 entries,
             2118 wiz_defined-function locations,
-            547 strings with 5038 characters,
-and the built_in function-call counts, 1672 in all, are:
-= -- 170
-> -- 54
+            624 strings with 6798 characters,
+and the built_in function-call counts, 6091 in all, are:
+= -- 621
+> -- 196
 < -- 0
-+ -- 24
-- -- 16
-* -- 103
-:= -- 273
-add.period$ -- 16
-call.type$ -- 6
-change.case$ -- 26
++ -- 85
+- -- 58
+* -- 377
+:= -- 1014
+add.period$ -- 63
+call.type$ -- 22
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 58
-empty$ -- 152
-format.name$ -- 16
-if$ -- 348
+cite$ -- 23
+duplicate$ -- 226
+empty$ -- 549
+format.name$ -- 58
+if$ -- 1262
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 4
-newline$ -- 31
-num.names$ -- 10
-pop$ -- 31
+int.to.str$ -- 22
+missing$ -- 20
+newline$ -- 110
+num.names$ -- 42
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 73
 quote$ -- 0
-skip$ -- 45
+skip$ -- 156
 stack$ -- 0
-substring$ -- 138
-swap$ -- 6
+substring$ -- 489
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 82
 warning$ -- 1
-while$ -- 18
-width$ -- 7
-write$ -- 61
-(There were 14 warnings)
+while$ -- 70
+width$ -- 24
+write$ -- 227
+(There were 9 error messages)
