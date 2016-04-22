@@ -13,45 +13,49 @@ Warning--I didn't find a database entry for "expevidence1"
 Warning--I didn't find a database entry for "expevidence2"
 Warning--I didn't find a database entry for "radtype"
 Warning--I didn't find a database entry for "Knoll"
-You've used 5 entries,
+Warning--I didn't find a database entry for "celbio"
+Warning--I didn't find a database entry for "FEI"
+Warning--I didn't find a database entry for "Goldbul"
+Warning--to sort, need author or key in TEM
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            538 strings with 4696 characters,
-and the built_in function-call counts, 1515 in all, are:
-= -- 156
-> -- 53
+            547 strings with 5038 characters,
+and the built_in function-call counts, 1672 in all, are:
+= -- 170
+> -- 54
 < -- 0
-+ -- 23
++ -- 24
 - -- 16
-* -- 98
-:= -- 257
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 23
+* -- 103
+:= -- 273
+add.period$ -- 16
+call.type$ -- 6
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 51
-empty$ -- 129
+cite$ -- 7
+duplicate$ -- 58
+empty$ -- 152
 format.name$ -- 16
-if$ -- 309
+if$ -- 348
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 6
 missing$ -- 4
-newline$ -- 27
+newline$ -- 31
 num.names$ -- 10
-pop$ -- 20
+pop$ -- 31
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 20
 quote$ -- 0
-skip$ -- 39
+skip$ -- 45
 stack$ -- 0
-substring$ -- 133
-swap$ -- 5
+substring$ -- 138
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 0
+type$ -- 24
+warning$ -- 1
 while$ -- 18
-width$ -- 6
-write$ -- 54
-(There were 10 warnings)
+width$ -- 7
+write$ -- 61
+(There were 14 warnings)
