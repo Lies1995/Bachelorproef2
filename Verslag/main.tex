@@ -29,7 +29,7 @@
 \usepackage{subcaption}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage{hyperref, booktabs}
 \usepackage{url}
 \usepackage{geometry}
 \geometry{
@@ -38,7 +38,8 @@ left=30mm,
 right=30mm,
 top=20mm,
 }
-
+\usepackage{array}
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 
 \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
@@ -56,7 +57,6 @@ top=20mm,
 \date{\today} % Date for the report
 
 \begin{document}
-
 \maketitle % Insert the title, author and date
 \begin{center}
 \begin{tabular}{l r}
@@ -82,7 +82,7 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 \input{content/MaterialAndMethods}
 \newpage
 \input{content/ResultsAndDiscussion}
-\newpage
+newpage
 \input{content/Conclusion}
 \newpage
 \input{content/Appendix}
