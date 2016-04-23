@@ -11,6 +11,30 @@ The main goal of this project is to synthesize GNP of different sizes and to cha
 \section{Theoretical background}
 \subsection{Radiation physics}
 The ionizing radiation type used for radiation therapy can vary ranging from photons and electrons to protons, neutrons and low-mass ions, but photons are by far the most common form of radiation used in cancer treatment \cite{radtype}. There are three possible ways photons can interact with matter: photoelectric absorption, Compton scattering and pair production.\\
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[h]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{gfx/compton}
+        \caption{Compton effect}
+        \label{fig:gull}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[h]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{gfx/photoel}
+        \caption{Photoelectric effect}
+        \label{fig:tiger}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{gfx/pair_production}
+        \caption{Pair production}
+        \label{fig:mouse}
+    \end{subfigure}
+    \caption{Possible interaction types for photons.}\label{fig:inttypes}
+\end{figure}
 In the photoelectric effect, the energy of an incoming photon is transferred to an electron, which is then ejected. The vacancy left by this electron is then filled with another electron from a higher shell. This electron then gives of its excess energy as an characteristic X-ray photon. In some cases the excess energy may be transferred to an outer-shell electron. As a consequence this electron is ejected and is called an Auger electron. The cross section for photoelectric absorption $\tau$ increases for increasing mass number $Z$ and in decreases sharply with the photon energy $E_{\gamma}$:
 \begin{equation}
 \tau \cong C^{te} \cdot \frac{Z^n}{E_{\gamma}{^{3.5}}}
@@ -21,20 +45,7 @@ With pair production, a photon creates an electron-positron pair. The cross sect
 Since the cross sections for each of these processes increases with increasing $Z$, it is clear that gold, with its high atomic mass, is suitable for radiosensitization.
 \subsection{Biological effects}
 \subsection{Targeting}
-\begin{wrapfigure}{r}{0.4\textwidth}
-  \centering
-  \begin{subfigure}[t]{0.7\textwidth}
-    \includegraphics[width=0.40\textwidth]{gfx/ptargeting}
-    \caption{}
-    \label{fig:ptargeting}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.7\textwidth}
-    \includegraphics[width=0.40\textwidth]{gfx/atargeting}
-    \caption{}
-    \label{fig:atargeting}
-  \end{subfigure}
-  \caption{Gold nanoparticles coated with (a) polyethylene glycol and (b) antibodies.}
-\end{wrapfigure}
+
 In order to have a beneficial effect of GNP in radiation therapy, it is important to bring the nanoparticles as close as possible to the DNA of the cancer cells. The uptake of GNP into the nucleus of the cells is only possible below a certain upper size limit \cite{Ken}.\\  Therefore the size of the nanoparticle is a very important parameter.
 GNP are known to passively accumulate in cancer cells because of the enhanced permeability and retention (EPR) effect. Because cancer cells are rapid growing cells, tumors have leaky, immature vasculature, so that their blood vessels are more permeable \cite{Jain}. \\  This effect can be enhanced by functionalizing the naked gold nanoparticles with PEG. This PEG coating sterically hinders nonspecific binding of proteins to the surface of the particle and delays the recognition of the particles by the reticuloendothelial system. This increase the circulation time of the GNP in the blood and as a result increases the probability of delivering the nanoparticles to the tumor \cite{Ken}. \\  The hydrodynamic radius of the particles increases because of this PEG coating, therefore the optimal size (of the naked GNP) for uptake is smaller when the particle is functionalized. Finally the functionalization also has a positive effect on the stability of the GNP solution.\\
 Besides PEGylation, the GNP can also be coated with antibodies, which actively bind to receptors that are specific for cancer cells. An example of a receptor that is overexpressed in tumors is the epidermal growth factor receptor. Nanoparticles coated with an antibody that corresponds to this receptor are guided to the tumor and bind on its surface \cite{Tiwari}.
