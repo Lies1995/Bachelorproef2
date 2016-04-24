@@ -20,3 +20,4 @@ plot(x,S,'.','Color',hex2rgb('#7F710D'),'Markersize',15)
 hold off
 set(gca, 'XTick',1:5, 'XTickLabel',{'No PEG' '1k' '5k' '10k' '20k'})
 axis([0 6 10 180])
+ylabel('Hydrodynamic Radius (nm)')
