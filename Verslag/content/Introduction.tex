@@ -7,7 +7,6 @@ The toxic effect of radiation therapy can be reduced in different ways. For exam
 The first experimental evidence of the use of GNP to enhance radiation therapy was provided by Hainfeld et al. \cite{expevidence}. Mice with cancer tumors were injected with 1.9 nm diameter GNP and then radiated with 250 kVp X-rays. The combination of GNP and radiation resulted in a one-year survival of 86$\%$ compared to 20$\%$ with radiation therapy alone. Other experiments showed similar evidence of the radiosensitizing effect of GNP \cite{expevidence2}\cite{expevidence1}. These results provide a motivation for further research within the field of nanoparticle enhanced radiation therapy.\\
 The main goal of this project is to synthesize GNP of different sizes and to characterize them using different methods. Next the GNP are functionalized with a polyethylene glycol (PEG) coating, which increases the probability of delivering the nanoparticles to the cancer cells. The PEG coating also provides stability to the GNP solution, i.e., prevents them from aggregating. Finally a mixture of DNA and GNP is irradiated and the effect on the DNA is analysed.\\
 %#TODO effect PEG omdraaien? we voegen het to voor de targetting en merken dat het een positief effect heeft op de stabilizatie?
-\newpage
 \section{Theoretical background}
 \subsection{Radiation physics}
 The ionizing radiation type used for radiation therapy can vary ranging from photons and electrons to protons, neutrons and low-mass ions, but photons are by far the most common form of radiation used in cancer treatment \cite{radtype}. There are three possible ways photons can interact with matter: photoelectric absorption, Compton scattering and pair production. An illustration of these processes is given in figure \ref{fig:inttype}.
@@ -18,14 +17,14 @@ The ionizing radiation type used for radiation therapy can vary ranging from pho
         \caption{Compton effect}
         \label{fig:gull}
     \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
       %(or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[h]{0.5\textwidth}
         \includegraphics[width=\textwidth]{gfx/photoel}
         \caption{Photoelectric effect}
         \label{fig:tiger}
     \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     %(or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[h]{0.4\textwidth}
         \includegraphics[width=\textwidth]{gfx/pair_production}
@@ -43,28 +42,29 @@ with $n$ varying between $4$ and $5$ \cite{Knoll}.\\
 The Compton effect is an inelastic scattering between a photon and an electron, where part of the energy of the incoming photon is transferred to the recoiling electron. The cross section for Compton scattering grows linearly with $Z$ and falls of gradually with increasing energy \cite{Knoll}.\\
 With pair production, a photon creates an electron-positron pair. The cross section for this process varies approximately with $Z^2$ and increases for increasing energy \cite{Knoll}.\\
 Since the cross sections for each of these processes increases with increasing $Z$, it is clear that gold, with its high atomic mass, is suitable for radiosensitization.\\
-Which interaction will take place depends on the photon energy and on the atomic number of the absorber, this is illustrated in figure \ref{fig:dominant}. 
-\begin{figure}
-\begin{center}
- \includegraphics[width=0.7\textwidth]{gfx/dominant}
-\end{center}
-        \caption{The region of dominance of the different interaction types in function of the atomic number of the absorber and the energy of the incoming photon.}
-				\label{fig:dominant}
+Which interaction will take place depends on the photon energy and on the atomic number of the absorber, this is illustrated in figure \ref{fig:dominant}.
+\begin{figure}[h!]
+  \centering
+\includegraphics[width=0.7\textwidth]{gfx/dominant}
+\caption{The region of dominance of the different interaction types in function of the atomic number of the absorber and the energy of the incoming photon.}
+\label{fig:dominant}
 \end{figure}\\
 For the purpose of radiosensitization, local energy delivery is needed. Therefore short range secondary radiation is preferred. That is why the photoelectric effect, which results in a secondary electron, is the preferred interaction. This interaction is dominant in the keV range, so that keV photons will give rise to the best local energy deposition \cite{Leung}. \\
-For deeper lying tumors however, low keV radiation is not sufficient because of the limited penetration depth. This is illustrated in figure \ref{fig:atlength}, where the attenuation length is plotted in function of the photon energy for water. The attenuation length is the depth at which the intensity of the radiation is decreased by a factor $1/e$ \cite{lennaert}. 
-\begin{figure}
-\begin{center}
- \includegraphics[width=0.5\textwidth]{gfx/atlength}
-\end{center}
-        \caption{The attenuation length of X-rays in water as a function of incomminng photon enery.}
-				\label{fig:atlength}
+For deeper lying tumors however, low keV radiation is not sufficient because of the limited penetration depth. This is illustrated in figure \ref{fig:atlength}, where the attenuation length is plotted in function of the photon energy for water. The attenuation length is the depth at which the intensity of the radiation is decreased by a factor $1/e$ \cite{lennaert}.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{gfx/atlength}
+\caption{The attenuation length of X-rays in water as a function of incomminng photon enery.}
+\label{fig:atlength}
 \end{figure}\\
 In figure \ref{fig:atlength} it is shown that high keV or MeV radiation is needed to reach deep lying tumors. In this energy region the dominant effect that will occur is Compton scattering (see figure \ref{fig:dominant}), both in tissue and in gold. The Compton effect results in scattered photons and electrons with a broad energy distribution. The energies of many of these photons fall within the region where interaction with gold is more probable than interaction with tissue, so that short-range secondary electrons are produced in large amounts by electromagnetic radiation in any energy range \cite{34}. Therefor even for treatment of deeper lying tumors the radiosensitization effect is present, but it is still preferable to bring the radiation source as close as possible to the tumor.
 
 \subsection{Biological effects}
 
 Soon after the discovery of radioactivity, it became clear that the use of ionizing radiation is not harmless. Generally it is assumed that the negative effects due to radiation exposure are mainly a result of DNA damage. Damage to other parts of the cell, such as membrane damage and cytoplasmic damage do not contribute significantly \cite{41}.\\ Deoxyribonucleic acid or DNA is a molecule that carries the genetic instructions for the functioning of all living organisms and many viruses. It is composed of two polynucleotide strands that form a double helix. Each of these strand stores the same biological information \cite{celbio}. \\
+When ionizing radiation interacts with biological matter, it causes ionization and excitation of atoms and molecules inside the cells, which can break chemical bonds. Ionizing radiation leads to DNA damage in two different ways. When ions are formed directly in the DNA molecule, the DNA is damaged and one speaks of a direct effect. In the aqueous environment inside the cells, the ionizing radiation can also interact with the water molecules surrounding the DNA. The water molecules are dissociated and free radicals are formed. These are reactive molecules with an unpaired electron that can interact with the DNA causing damage. The radicals that are formed after the dissociation of water are the OH$\cdot$ and H$\cdot$ radical, the dot here indicates the unpaired electron. This is the indirect effect. Both the direct and indirect effect are illustrated in figure \ref{fig:direct}. There are three common types of damage to the DNA due to ionizing radiation: base excision, single strand breaks and double strand breaks. Although repair mechanisms exist in the cell for each of these types of damage, irradiation can still lead to permanent damage. This permanent damage results in biological effects, that are classified into deterministic and stochastic effects. \\
+Normally organs can recover form the loss of a few cells. However, when the organ is exposed to a large dose in a short time interval, the decrease in the number of cells can become to high to be compensated by an increased division activity. This leads to reduced organ performance or even organ failure. These are both deterministic effects, which are characterized by a threshold dose, below which no effect is observed. \\
+Although the repair mechanisms are highly efficient, incorrect repair and non-repair are still possible, this results in mutations. These results are called stochastic effect. In contrast to deterministic effects, there is no threshold dose, the severity of the effect is independent of the dose. In radiation therapy one wants to achieve deterministic effects, the stochastic effects however are unwanted, because these can have tumor recurrence after the treatment as result.
 \begin{wrapfigure}{l}{0.42\textwidth}
 \begin{center}
 \vspace{-20pt}
@@ -74,10 +74,6 @@ Soon after the discovery of radioactivity, it became clear that the use of ioniz
 				\label{fig:direct}
 				\vspace{-5pt}
 \end{wrapfigure}
-When ionizing radiation interacts with biological matter, it causes ionization and excitation of atoms and molecules inside the cells, which can break chemical bonds. Ionizing radiation leads to DNA damage in two different ways. When ions are formed directly in the DNA molecule, the DNA is damaged and one speaks of a direct effect. In the aqueous environment inside the cells, the ionizing radiation can also interact with the water molecules surrounding the DNA. The water molecules are dissociated and free radicals are formed. These are reactive molecules with an unpaired electron that can interact with the DNA causing damage. The radicals that are formed after the dissociation of water are the OH$\cdot$ and H$\cdot$ radical, the dot here indicates the unpaired electron. This is the indirect effect. Both the direct and indirect effect are illustrated in figure \ref{fig:direct}. There are three common types of damage to the DNA due to ionizing radiation: base excision, single strand breaks and double strand breaks. Although repair mechanisms exist in the cell for each of these types of damage, irradiation can still lead to permanent damage. This permanent damage results in biological effects, that are classified into deterministic and stochastic effects. \\
-Normally organs can recover form the loss of a few cells. However, when the organ is exposed to a large dose in a short time interval, the decrease in the number of cells can become to high to be compensated by an increased division activity. This leads to reduced organ performance or even organ failure. These are both deterministic effects, which are characterized by a threshold dose, below which no effect is observed. \\
-Although the repair mechanisms are highly efficient, incorrect repair and non-repair are still possible, this results in mutations. These results are called stochastic effect. In contrast to deterministic effects, there is no threshold dose, the severity of the effect is independent of the dose. In radiation therapy one wants to achieve deterministic effects, the stochastic effects however are unwanted, because these can have tumor recurrence after the treatment as result. 
-
 \subsection{Targeting}
 
 In order to have a beneficial effect of GNP in radiation therapy, it is important to bring the nanoparticles as close as possible to the DNA of the cancer cells. The uptake of GNP into the nucleus of the cells is only possible below a certain upper size limit \cite{Ken}.\\  Therefore the size of the nanoparticle is a very important parameter.
