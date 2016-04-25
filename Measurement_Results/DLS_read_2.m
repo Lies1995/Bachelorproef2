@@ -49,6 +49,7 @@ for i=1: 3
         end
         hold off
     end
+    xlim([1 100])
     set(gca,'XScale','log');
     xlabel('Diameter ($nm$)')
     ylabel('Intensity (a.u.)') %normalized correlation curve
