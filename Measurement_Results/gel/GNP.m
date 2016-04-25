@@ -1,21 +1,30 @@
 M_H=1.008;
+%M_H=1;
 M_Au=196.967;
+%M_Au=197;
 M_Cl=35.453;
+%M_Cl=35;
 m_HAuCl4=0.0250;%g
 r_15=15/2;%nm
 r_30=30/2;%nm
-%r_30=30/2;
 r_45=45/2;%nm
+NA=6.022*10^(23);
 p_Au=19.32;%g/cm^3
-
+Da=1.661*10^(-24);%g
+MW_DNA=3.50*10^6*Da*10^6;%ug
+c_DNAsol=0.5;%ug/ul
+v_DNAsol=2.5;%ul
 M_HAuCl4=M_H+M_Au+4*M_Cl;
 m=[ r_15 r_30 r_45];
 c_250=0;
 c_05=0;
 for i=1:length(m)
-    r=m(i)*10^(-7);
-    V_Au=(4/3)* pi *r^3;
-    N=( m_HAuCl4 * M_Au ) / ( M_HAuCl4 * p_Au * V_Au);
-    c_250=(N*10^(-3))/250
-    c_05=N*2*10^(-3)
+    r=m(i)*10^(-7);%cm
+    V_Au=(4/3)* pi *r^3; %cm^
+    N=( m_HAuCl4 * M_Au ) / ( M_HAuCl4 * p_Au * V_Au); %aantal GNP
+    c_250=(N*10^(-3))/250%GNP/ul
+    c_05=(N/4)*2*10^(-3)%GNP/ul
+    N_GNP_30ul=c_05*30
+    N_DNAmol=c_DNAsol*v_DNAsol/MW_DNA
+    verhoudingGNPDNA=N_GNP_30ul/N_DNAmol
 end

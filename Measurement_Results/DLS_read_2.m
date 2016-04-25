@@ -17,7 +17,7 @@ for i=1: 3
     C=xlsread(fullfile('DLS','Data_verslag',[num2str(ml(i)) '_20k.xlsx']))
 
     fig=figure(i)
-    set(fig, 'Position', [262 191 900 440])
+    %set(fig, 'Position', [262 191 500 440])
     if i==1
         axis();
         set(gca, 'colororder', B, 'nextplot', 'replacechildren');
