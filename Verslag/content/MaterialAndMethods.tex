@@ -75,9 +75,11 @@ This technique will also be used to determine the necessary proportion PEG vs. G
 
 
 \subsubsection{Hydrodynamic Radius}
-For the practical applications the GNP will be coated with a PEG layer for targetting to the tumor. It's important to know the total radius of the particle (Gold plus coating) since this will determine the diffusive properties of the particles.
-The total radius of the particle plus layer (gold $+$ PEG or gold $+$ H$_2$O) is called the hydrodynamic radius (R$_h$), see figure \ref{fig:hydroR}. This radius can be measured using the dynamic light scattering (DLS) technique
-The DLS technique is based on the Rayleigh scattering of incident infrared light by the gold nanoparticles. \\ The GNP in the colloid perform a brownian motion. Due to this random motion the total intensity of the scattered light will vary over time. If the particles have a smaller R$_h$ they will move faster and the total intensity will vary accordingly. The variation of the total intensity over time is thus a measure of the hydrodynamic radius of the particles. \\
+For the practical applications the GNP will be coated with a PEG layer for targeting to the tumor. It is important to know the total radius of the particle (gold plus coating) since this will determine the diffusive properties of the particles.
+The total radius of the particle plus layer (gold $+$ PEG or gold $+$ H$_2$O) is called the hydrodynamic radius (R$_h$), see figure \ref{fig:hydroR}. This radius can be measured using the dynamic light scattering (DLS) technique.
+The DLS technique is based on the Rayleigh scattering of incident infrared light by the gold nanoparticles. \\ 
+%TO DO: uitleggen dat er in oplossing deeltjes van het oplosmiddel gaan 'kleven' aan de GNP
+The GNP in the colloid perform a brownian motion. Due to this random motion the total intensity of the scattered light will vary over time. If the particles have a smaller R$_h$ they will move faster and the total intensity will vary accordingly. The variation of the total intensity over time is thus a measure of the hydrodynamic radius of the particles. \\
 
 \begin{figure}
   \centering
@@ -118,17 +120,17 @@ where $\beta$ is an instrumental factor and $q$ the wavevector of the scattered 
   q=\frac{4 \pi n}{\lambda_0}\text{sin}(\frac{\theta}{2})
 \end{equation}
 with $n$ the refractive index of the medium, $\lambda_0$ the wavelength of the incident radiation and $\theta$ the scattering angle.
-Equation \ref{eq:autocorR} clearly shows that if the particles are smaller the autocorrelation function will be steeper (see figure \ref{fig:DLScor}). This is in agreement with the more rapid variation of the scattered intensity for smaller particles.
+Equation \eqref{eq:autocorR} clearly shows that if the particles are smaller the autocorrelation function will be steeper (see figure \ref{fig:DLScor}). This is in agreement with \textbf{corresponds to} the more rapid variation of the scattered intensity for smaller particles.
 For a polydisperse sample the same equation holds only now $g_1(q,\tau)$ is the sum of all exponential decays measured in the autocorrelation function.
-The specific analysis is executed by the \emph{Vasoc- particle size analyzer} Nano-Q software using the Pade-Laplace method \cite{DLSManual}.%#TODO
-One ml of GNP colloid is analyzed 5 times. Based on the quality of the fitting of the autocorrelation function measurements are accepted or rejected. This is repeated for each sample so in total there are $10$ measurements for each sample (if none are rejected).
+The specific analysis is executed by the \emph{Vasoc- particle size analyzer} Nano-Q software using the Pade-Laplace method \cite{DLSManual}.%#TODO 
+One ml of GNP colloid is analyzed 5 times. Based on the quality of the fitting of the autocorrelation function, measurements are accepted or rejected. This is repeated \textbf{done twice} for each sample so in total there are $10$ measurements for each sample (if none are rejected).
 
 
 \subsubsection{Stability of the colloid}
-There are several ways to create a stable colloid, to prevent the particles from aggregating. One way is to create steric repulsion by coating the particles with big molecules (mostly polymers). As mentioned in the previous sections the GNP in this project will be coated with a methoxy-PEG$_n$ thiol layer for optimal targeting to the tumor. This PEG layer immediately aids the stability of the colloid.  Another way to stabilize the colloid is by using electrostatic repulsion. If all particles have an equal and high surface potential the coulomb repulsion will stop them from aggregating.
+There are several ways to create a stable colloid, to prevent the particles from aggregating. One way is to create steric repulsion by coating the particles with large molecules (mostly polymers). As mentioned in the previous sections the GNP in this project will be coated with a methoxy-PEG$_n$ thiol layer for optimal targeting to the tumor. This PEG layer immediately aids the stability of the colloid.  Another way to stabilize the colloid is by using electrostatic repulsion. If all particles have an equal and high surface potential the coulomb repulsion will stop them from aggregating.
 Measurements of the surface potential is a typical characterization of gold nanoparticles and will be performed in this project.
-When no functionalization has happened the citrate ions (see section \ref{subsubsec:Funct}) surround the particles and the surface potential should be negative. If the particles are coated with an methoxy-PEG$_n$ thiol layer no surface potential should be present.\\
-As figure \ref{fig:zeta} shows the naked gold particles in solution have one tightly bound layer of negative ions (citrate ions) and a second less tightly bound layer of positive and negative ions. The surface potential of this second layer will determine the electrostatic properties of the particles, it is called the $\zeta$-potential. In general it is said that if the $\zeta$-potential is bigger than $30mV$ the colloid is stable. That is, there's enough electrostatic repulsion to prevent the particles from aggregating. \\
+When no functionalization has happened, the citrate ions (see section \ref{subsubsec:Funct}) surround the particles and the surface potential should be negative. If the particles are coated with an methoxy-PEG$_n$ thiol layer no surface potential should be present.\\
+As figure \ref{fig:zeta} shows the naked gold particles in solution have one tightly bound layer of negative ions (citrate ions) and a second less tightly bound layer of positive and negative ions. The surface potential of this second layer will determine the electrostatic properties of the particles, it is called the $\zeta$-potential. In general it is said that if the absolute value of the $\zeta$-potential is larger than $30mV$ the colloid is stable. That is, there is enough electrostatic repulsion to prevent the particles from aggregating. \\
 \begin{wrapfigure}{r}{0.45\textwidth}
   \begin{center}
   \includegraphics[width=0.4\textwidth]{gfx/zeta}
@@ -137,7 +139,6 @@ As figure \ref{fig:zeta} shows the naked gold particles in solution have one tig
   \label{fig:zeta}
 \end{wrapfigure}
 
-As figure \ref{fig:zeta} shows the naked gold particles in solution have one tightly bound layer of negative ions (citrate ions) and a second less tightly bound layer of positive and negative ions. The surface potential of this second layer will determine the electrostatic properties of the particles, it is called the $\zeta$-potential. In general it is said that if the absolute value of the $\zeta$-potential is larger than $30$mV, the colloid is stable. That is, there is enough electrostatic repulsion to prevent the particles from aggregating. \\
 To measure the $\zeta$-potential the Laser-Dopler electrophoresis technique is used. When an electric field is applied over a sample the charged particles start to accelerate. Since the particles are in solution they undergo a drag force and will eventually move at a constant velocity $v$.
 \begin{equation}
   E\cdot q=\alpha \cdot v \Rightarrow v=\mu_e\cdot E \quad \text{with }\mu_e=\frac{q}{\alpha}
