@@ -3,7 +3,7 @@ Each year $8.2$ million people die from cancer, that is an estimated $13\%$ of a
 Furthermore the number of new cases is expected to increase by $70\%$ over the next two decades \cite{WHO}.
 These numbers are a clear indication for the importance of cancer research, which includes the development of new treatments and the enhancement of the existing ones.\\
 Cancer is a general term for a large group of diseases that are all characterized by a population of abnormal cells that grow vigorously beyond their usual boundaries.
-The cells grow uncontrolled and thereby form tumors, because the part of the DNA responsible for programmed cell death is disturbed.\\
+The cells grow uncontrolled and thereby form tumors because the part of the DNA responsible for programmed cell death is disturbed.\\
 There are three major cancer treatments existing today.
 The first one, chemotherapy, uses anti-cancer drugs  to damage the cancer cells.
 These drugs especially affect rapidly dividing cells, which is a typical characteristic of the cancer cells.
@@ -22,7 +22,7 @@ With this technique cancer cells are made more sensitive to ionizing radiation w
 In this project radiosensitization using gold nanoparticles (GNP) is discussed.\\
 The absorption of photons is higher for elements with high mass number (Z).
 When the GNP are brought inside a tumor, the ionizing radiation will mainly interact with the nanoparticles because of its high mass number (Z=$79$).
-This interaction causes local secondary radiation, which delivers its energy locally inside the tumor\cite{targeting}.
+This interaction causes local secondary radiation, which delivers its energy locally inside the tumor \cite{targeting}.
 The biocompatibility of gold makes it suitable for medical treatment and is the reason why it is chosen over other elements with high atomic mass \cite{biocompatible}. \\
 The first experimental evidence for the use of GNP to enhance radiation therapy was provided by Hainfeld et al. \cite{expevidence}.
 Mice with cancer tumors were injected with $1.9$ nm diameter GNP and then radiated with $250$ kVp X-rays.
@@ -36,8 +36,8 @@ Finally a mixture of DNA and GNP is irradiated and the effect on the DNA is anal
 %#TODO effect PEG omdraaien? we voegen het to voor de targetting en merken dat het een positief effect heeft op de stabilizatie?
 \section{Theoretical background}
 \subsection{Radiation physics}
-The ionizing radiation type used for radiation therapy can vary ranging from photons and electrons to protons, neutrons and low-mass ions, but photons are by far the most common form of radiation used in cancer treatment \cite{radtype}. There are three possible ways photons can interact with matter: photoelectric absorption, Compton scattering and pair production. An illustration of these processes is given in figure \ref{fig:inttype}.
-\begin{figure}
+The ionizing radiation type used for radiation therapy ranges from photons and electrons to protons, neutrons and low-mass ions, but photons are by far the most common form of radiation used in cancer treatment \cite{radtype} There are three possible ways photons can interact with matter: photoelectric absorption, Compton scattering and pair production. An illustration of these processes is shown in figure \ref{fig:inttype}.
+\begin{figure}.
     \centering
     \begin{subfigure}[h]{0.5\textwidth}
         \includegraphics[width=\textwidth]{gfx/compton}
@@ -62,19 +62,17 @@ The ionizing radiation type used for radiation therapy can vary ranging from pho
 		\label{fig:inttypes}
 		\label{fig:inttype}
 \end{figure}\\
-In the photoelectric effect, the energy of an incoming photon is transferred to an electron, which is then ejected.
-The vacancy left by this electron is then filled with another electron from a higher shell.
-This electron then gives of its excess energy as an characteristic X-ray photon.
+In the photoelectric effect, an electron is ejected due to the absorption of the energy of an incoming photon.
+The vacancy left by this electron is then filled with another electron from a higher shell which gives of its excess energy as an characteristic X-ray photon.
 In some cases the excess energy may be transferred to an outer-shell electron.
 As a consequence this electron is ejected and is called an Auger electron.
 The cross section for photoelectric absorption $\tau$ increases for increasing mass number $Z$ and in decreases sharply with the photon energy $E_{\gamma}$:
 \begin{equation}
 \tau \cong C^{te} \cdot \frac{Z^n}{E_{\gamma}{^{3.5}}}
 \end{equation}
-with $n$ varying between $4$ and $5$ \cite{Knoll}.\\
-The Compton effect is an inelastic scattering between a photon and an electron, where part of the energy of the incoming photon is transferred to the recoiling electron. The cross section for Compton scattering grows linearly with $Z$ and falls of gradually with increasing energy \cite{Knoll}.\\
+with $n$ variating between $4$ and $5$ \cite{Knoll}.\\
+The Compton effect is an inelastic scattering between a photon and an electron where part of the energy of the incoming photon is transferred to the recoiling electron. The cross section for Compton scattering grows linearly with $Z$ and falls of gradually with increasing energy \cite{Knoll}.\\
 With pair production, a photon creates an electron-positron pair. The cross section for this process varies approximately with $Z^2$ and increases for increasing energy \cite{Knoll}.\\
-Since the cross sections for each of these processes increases with increasing $Z$, it is clear that gold, with its high atomic mass, is suitable for radiosensitization.\\
 Which interaction will take place depends on the photon energy and on the atomic number of the absorber, this is illustrated in figure \ref{fig:dominant}.
 \begin{figure}
 \begin{subfigure}[h]{0.5\textwidth}
@@ -90,9 +88,10 @@ Which interaction will take place depends on the photon energy and on the atomic
 \end{subfigure}
 \caption{(a)The region of dominance of the different interaction types in function of the atomic number of the absorber and the energy of the incoming photon \cite{dominant}. (b)The attenuation length of X-rays in water as a function of incomminng photon enery \cite{atlength}.}
 \end{figure}
-For the purpose of radiosensitization, local energy delivery is needed. Therefore short range secondary radiation is preferred. That is why the photoelectric effect, which results in a secondary electron, is the preferred interaction. This interaction is dominant in the keV range, so that keV photons will give rise to the best local energy deposition \cite{Leung}. \\
-For deeper lying tumors however, low keV radiation is not sufficient because of the limited penetration depth. This is illustrated in figure \ref{fig:atlength}, where the attenuation length is plotted in function of the photon energy for water. The attenuation length is the depth at which the intensity of the radiation is decreased by a factor $1/e$ \cite{lennaert}.
-In figure \ref{fig:atlength} it is shown that high keV or MeV radiation is needed to reach deep lying tumors. In this energy region the dominant effect that will occur is Compton scattering (see figure \ref{fig:dominant}), both in tissue and in gold. The Compton effect results in scattered photons and electrons with a broad energy distribution. The energies of many of these photons fall within the region where interaction with gold is more probable than interaction with tissue, so that short-range secondary electrons are produced in large amounts by electromagnetic radiation in any energy range \cite{34}. Therefor even for treatment of deeper lying tumors the radiosensitization effect is present, but it is still preferable to bring the radiation source as close as possible to the tumor.
+As stated before, the radiation does not discriminate between normal and malignant tissue due to the large penetration depht of photons. When gold nanoparticles are implemented in the cancer cells though, the photons will mainly interact with the nanoparticles since the cross sections for each of the interaction processes increases with increasing $Z$. These interactions cause secondary radiation.
+For the purpose of radiosensitization short range secondary radiation is preferred since local energy delivery is needed to minimize unnecessary damage. That is why the photoelectric effect, which results in a secondary electron, is the preferred interaction. This interaction is dominant in the keV range, so that keV photons will give rise to the best local energy deposition \cite{Leung}. \\
+For deeper lying tumors however, low keV radiation is not sufficient due to the limited penetration depth of keV photons. This is illustrated in figure \ref{fig:atlength}, where the attenuation length is plotted in function of the photon energy for water. The attenuation length is the depth at which the intensity of the radiation is decreased by a factor $1/e$ \cite{lennaert}.
+In figure \ref{fig:atlength} it is shown that high keV or MeV radiation is needed to reach deep lying tumors. In this energy region the dominant effect that will occur is Compton scattering (see figure \ref{fig:dominant}), both in tissue and in gold. The Compton effect results in scattered photons and electrons with a broad energy distribution. Fortunately the energies of these photons fall within the region where interaction with gold is more probable than interaction with tissue and short-range secondary electrons are still produced in large amounts \cite{34}. Therefor, even for treatment of deeper lying tumors the radiosensitization effect is present, but it remains preferable to bring the radiation source as close as possible to the tumor.
 
 \subsection{Biological effects}
 \label{subsec:bioeffects}
