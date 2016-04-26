@@ -19,18 +19,18 @@ met=xlsread(fullfile('UV-VIS','14.03.16','GNP_2.5_1k.xlsx'),'Met zout',Range);
   y6=met(3,:);
   y7=met(5,:);
   y8=met(6,:);
-  plot(x,y1,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('0D747F'))
+  plot(x,y1,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('BFAA13'))
   hold on
-  plot(x,y2,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('B20061'))
-  plot(x,y3,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('BFAA13'))
-  plot(x,y4,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('660A3C'))
-  plot(x,y5,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('0D747F'))
-  plot(x,y6,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('B20061'))
-  plot(x,y7,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('BFAA13'))
-  plot(x,y8,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('660A3C'))
+  plot(x,y2,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('7F710D'))
+  plot(x,y3,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('3F3906'))
+  plot(x,y4,'LineWidth',1.5,'LineStyle','-','color',hex2rgb('EBD117'))
+  plot(x,y5,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('BFAA13'))
+  plot(x,y6,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('7F710D'))
+  plot(x,y7,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('3F3906'))
+  plot(x,y8,'LineWidth',1.5,'LineStyle','--','color',hex2rgb('EBD117'))
 
   
      xlabel('Wavelength ($nm$)')
    ylabel('Absorbance (OD)')
-   h=legend('Without NaCl','With NaCl' )
+   h=legend('Without NaCl','With NaCl')
 set(h,'Interpreter','latex')
