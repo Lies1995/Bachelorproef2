@@ -55,15 +55,24 @@ For the measurements a CM-200 FEG Philips transmission electron microscope is us
 
 A typical characterization technique of GNP is a measurement of the abosorbance spectrum in the ultra-violet and visible spectrum; UV-Vis spectroscopy. The peak in the spectrum provides information about the core diameter of the particles. \\
 When electromagnetic radiation falls in on the surface of a particle the oscillating electric field causes the surface electron cloud to oscillate in the opposite direction (see figure \ref{fig:plasmon}). One side of the particle becomes negatively charged whereupon the other side becomes positive since the particles are neutral. This distribution of charge establishes a restoring force, which causes the electron cloud to oscillate back. The frequency of this oscillation depends on the geometrical properties of the particle; the natural surface plasmon frequency. If this frequency is equal to the frequency of the incident radiation, the resonance condition is satisfied leading to a peak in the absorbance spectrum.\\
-From the quantitative result of the absorbance peak, approximate results for the core diameter of the particles can be obtained. In this project the absorbance spectra of different particles are compared to analyze the size of the samples relative to each other. A smaller particle will create a higher restoring force, which results in a higher surface plasmon frequency (see figure ).%#TODO.
-To measure the absorption spectra the %#TODO apparaat
+From the quantitative result of the absorbance peak, approximate results for the core diameter of the particles can be obtained. In this project the absorbance spectra of different particles are compared to analyze the size of the samples relative to each other. A smaller particle will create a higher restoring force, which results in a higher surface plasmon frequency (see figure \ref{fig:absorption}).
+To measure the absorption spectra the %# TODO apparaat
 is used and the wavelength of the incident radiation is varied between $300$nm and $900$nm in steps of $1$nm. The measured absorption for each wavelength is an average of $25$ flashes. \\
 
 \begin{figure}[h!]
-\centering
- \includegraphics[width=0.45\textwidth]{gfx/plasmon}
- \caption{Schematic representation of surface plasmons}
- \label{fig:plasmon}
+  \begin{subfigure}[t]{0.48\textwidth}
+    \includegraphics[width=\textwidth]{gfx/absorption}
+    \caption{}
+    \label{fig:absorption}
+  \end{subfigure}
+  \quad
+  \begin{subfigure}[t]{0.48\textwidth}
+    \includegraphics[width=\textwidth]{gfx/plasmon}
+    \caption{}
+    \label{fig:plasmon}
+  \end{subfigure}
+ \caption{(a)Qualitative absorption spectra of two particles with different sizes (b)Schematic representation of surface plasmons}
+ \label{fig:total}
 \end{figure}
 The UV-Vis technique will also be used to determine the necessary proportion PEG vs. GNP to create a stable colloid, see section \ref{subsubsec:Funct}. A colloid can be destabilized by adding NaCl. In solution the NaCl forms ions, which interact with the GNP and decrease the magnitude of the electromagnetic repulsion between them. The only factor that prevents the particles from aggregating when NaCl is added, is the steric repulsion of the PEG coating. If after the addition of salt the absorbance peak has shifted to higher wavelengths (lower frequencies) or a secondary peak arises, aggregation of the nanoparticles has taken place and more PEG is needed. \\ The colloids with the smallest particles have the most surface to fill thus need the most PEG to be stabilized. Therefore, these experiments are done for each of the four different PEG's, but only for the smallest particles. Once the optimal proportion (for each PEG) is determined for the smallest particles, this proportion should also work for the larger ones.
 \\In this project a $1$g/l PEG solution is used and the proportion PEG/GNP is varied from $1$/$10$ to $10$/$10$ (volume to volume ratio). A well of an UV-Vis plate has a maximum volume of $200\mu$l. For all measurements with NaCl, $50\mu$l of a saturated NaCl solution is used. For the lowest proportions ($1/10$-$5/10$) $100\mu$l GNP solution is mixed with $10\mu$l to $50\mu$l PEG solution (according to the proportions). In order not to exceed the maximum volume of the UV-Vis plate, for the higher proportions ($6/10$ - $10/10$ ) only $50\mu$l GNP solution and $30\mu$l- $50\mu$l PEG solution is added. This will lower the height of the absorption peak, but since the significant physical information is contained in the position (resonance frequency) and not the height of the peak, no problems should occur in interpreting the results.
@@ -106,8 +115,7 @@ with D the diffusion constant
 \begin{equation}
   D=\frac{k_bT}{6\pi\eta R_h}
 \end{equation}
-This random motion causes the total scattered intensity $I(t)$ to fluctuate over time and a normalized autocorrelation function is defined, which compares the intensity at time t with the intensity a time interval $\tau$ later (see figure).
-%#TODO
+This random motion causes the total scattered intensity $I(t)$ to fluctuate over time and a normalized autocorrelation function is defined, which compares the intensity at time t with the intensity a time interval $\tau$ later (see figure \ref{fig:DLSint}).
 \begin{equation}
   g_2(\tau)=\frac{\mean{I(t)I(t+\tau)}}{\mean{I(t)}^2}
   \label{eq:autocor}
@@ -118,14 +126,14 @@ For a monodisperse sample this function can be written in function of the diffus
   g_2(\tau)=1+\beta|g_1(q,\tau)|^2 \quad \text{with }g_1(q,\tau)=\text{exp}(-q^2\mean{R^2(\tau)})=\text{exp}(-q^26D\tau)
   \label{eq:autocorR}
 \end{equation}
-where $\beta$ is an instrumental factor and $q$ the wavevector of the scattered light \cite{DLSBook} % #TODO
+where $\beta$ is an instrumental factor and $q$ the wavevector of the scattered light \cite{DLSBook}
 \begin{equation}
   q=\frac{4 \pi n}{\lambda_0}\text{sin}(\frac{\theta}{2})
 \end{equation}
 with $n$ the refractive index of the medium, $\lambda_0$ the wavelength of the incident radiation and $\theta$ the scattering angle.
 Equation \eqref{eq:autocorR} clearly shows that if the particles are smaller the autocorrelation function will be steeper (see figure \ref{fig:DLScor}). This corresponds to the more rapid variation of the scattered intensity for smaller particles.
 For a polydisperse sample the same equation holds only now $g_1(q,\tau)$ is the sum of all exponential decays measured in the autocorrelation function.
-The specific analysis is executed by the \emph{Vasoc- particle size analyzer} Nano-Q software using the Pade-Laplace method \cite{DLSManual}. %#TODO
+The specific analysis is executed by the \emph{Vasoc- particle size analyzer} Nano-Q software using the Pade-Laplace method \cite{DLSManual}.
 One ml of GNP colloid is analyzed 5 times. Based on the quality of the autocorrelation function fit, measurements are accepted or rejected. This is done twice for each sample to achieve $10$ measurements in total for each sample (if none are rejected).
 
 
@@ -152,6 +160,7 @@ Here $\mu_e$ is called the electrophoretic mobility and its link with the $\zeta
 \end{equation}
 with $\eta$ the viscosity and $\epsilon$ the dielectric constant of the medium. Measuring the constant velocity of the particles in electric field $E$ is done by irradiating the moving particles with a laser of known wavelength and registrate the doppler shift in the scattered radiation.
 Hence an experimental value for the $\zeta$-potential is obtained and this is a quantitative indicator for the stability of the colloid.
+$\zeta$-potential measurements are preformed with %#TODO apparaat
 \subsection{Radiosensitization}
 \subsubsection{Sample Preparation}
 To verify the damaging effect of gold nanoparticles on DNA after irradiation, a mixture of DNA and GNP solution (PEGylated) is prepared. Thereafter these samples are irradiated with varying X-Ray dose ($0$Gy-$15$Gy). To have an optimal radiosensitization effect on the DNA, the GNP solutions have to be centrifuged. The concentration of gold nanoparticles in a $250$ ml solution obtained following the protocol described in the appendix is $1.7\cdot10^9$ GNP/$\mu$l, $2.1 \cdot10^8$ GNP/$\mu$l and $6.3 \cdot10^7$ GNP/$\mu$l for the particles of size $15$nm, $30$nm and $45$nm respectively, which is rather delute. This has been calculated using the known molar masses of gold and tetrachlorauric acid, the mass density of gold ($\rho_{\text{Au}}=19.32$g/cm$^3$) and under the assumption that all particles have the same size and are spherical.
@@ -160,17 +169,19 @@ The used DNA is a supercoiled double-stranded plasmid of $5386$ basepair long an
 The final samples are a $50\mu$l solution with roughly a $30:1$ GNP:DNA ratio for the $15$nm particles, a $4:1$ ration for the $30$nm particles and a $1:1$ ratio for the $45$nm particles.
 \subsubsection{DNA damage analysis}
 The irradiation of the samples was done using a Baltograph XSD $225$ X-ray generator from Balteau NTD at 199kVp. The $12$ samples are treated with different doses: $0$Gy, $5$Gy, $10$Gy and $15$Gy. \\
-After the irradiation, the damage on the DNA due to the X-ray radiation is analyzed. As discussed in section \ref{subsec:bioeffects} the effect of ionizing radiation on DNA can be a single strand break or a double strand break, but double strand breaks are the most favorable for damaging tumor cells, because their repair mechanisms are the most complex. When a single strand break occurs in supercoiled DNA it becomes circular. A double strand break has linear DNA as a result. \\
-The analysis of the DNA damage is done using gel electrophoresis. With this technique it is possible to separate charged macromolecules based on their charge and size. The charged molecules that need to be separated are loaded into a well at one end of a gel. Thereafter a voltage is applied across the gel and the charged molecules move accordingly trough the gel. Small molecules and molecules with a large charge move faster trough the gel then larger molecules and molecules with a lower charge. Molecules with the same charge and size will travel the same distance trough and will collect into a band.
+After the irradiation, the damage on the DNA due to the X-ray radiation is analyzed. As discussed in section \ref{subsec:bioeffects} the effect of ionizing radiation on DNA can be a single strand break or a double strand break, but double strand breaks are the most favorable for damaging tumor cells, because their repair mechanisms are the most complex. When a single strand break occurs in supercoiled DNA it becomes circular. A double strand break has linear DNA as a result.\\
+The analysis of the DNA damage is done using gel electrophoresis. With this technique it is possible to separate charged macromolecules based on their charge and size. The charged molecules that need to be separated are loaded into a well at one end of a gel.
 
 \begin{wrapfigure}{l}{0.5\textwidth}
   \begin{center}
     \includegraphics[width=0.48\textwidth]{gfx/afbgel}
   \end{center}
-  \caption{An example of a gel electrophoresis result. The DNA bands correspond to circular, linear and supercoiled DNA \cite{afbgel}\cite{supercoiled}.}
+  \caption{A gel electrophoresis result. The DNA bands correspond to circular, linear and supercoiled DNA \cite{afbgel}\cite{supercoiled}.}
 	 \vspace{-10pt}
 	\label{fig:afbgel}
 \end{wrapfigure}
 
+Thereafter a voltage is applied across the gel and the charged molecules move accordingly trough the gel.
+Small molecules and molecules with a large charge move faster trough the gel then larger molecules and molecules with a lower charge. Molecules with the same charge and size will travel the same distance trough and will collect into a band.\\
 Because DNA is negatively charged, it is suitable for gel electrophoresis. Supercoiled DNA is the most compact and so has the highest mobility, therefore supercoiled DNA travels the largest distance in the gel. Circular DNA, caused by a single strand break, has the lowest mobility and therefore travels the smallest distance trough the gel, due to its large expanse. Linear DNA, which is a result of a double strand break travels an intermediate distance. Figure \ref{fig:afbgel} shows an example of a gel electrophoresis image with circular, linear and supercoiled DNA. \\
 Here a voltage of $120$V is applied across an $1\%$ agarose gel during $35$ minutes. Afterwards the gel is colored with special dye that binds to the DNA and is active when exposed to UV-light. The imaging of the gel electrophoresis experiment is done using the ... transilluminator. The amount of DNA damage is analyzed by determining the intensity of the different bands with the use of the image processing program ImageJ.
