@@ -25,4 +25,5 @@ for i=1:length(m)
     N_GNP_30ul=c_05*30 %aantal gnp deeltjes in 30ul van 0.5ml oplossing
     N_DNAmol=c_DNAsol*v_DNAsol/MW_DNA %aantal DNA mol in 2.5ul oplossing
     verhoudingGNPDNA=N_GNP_30ul/N_DNAmol 
+
 end
