@@ -1,0 +1,16 @@
+m_HAuCl4=0.025; %massa in g
+M_HAuCl4=339,7865; %molaire massa tetra in g/mol
+n_HAuCl4=m_HAuCl4/M_HAuCl4; %aantal mol HAuCl
+n_Au=n_HAuCl4; %aantal mol goud
+M_Au=196.966569; %molarie massa goud in g/mol
+m_Au=M_Au*n_Au; %massa goud in g
+rho_Au=19.320; %massadichtheid goud g/cm^3
+v_Au=m_Au/rho_Au; %volume goud in 250ml cm^3
+V_Au=v_Au/4; %volume goud in 62.5ml cm^3
+D=15; %diameter GNP in nm
+d=D*10^(-7); %diameter GNP in cm
+V_GNP=(4/3)*pi*(d/2)^3; %volume van 1 GNP in cm^3
+GNP=V_Au/V_GNP %
+c=GNP/62.5 %1/ml
+C_250=c*10^-3
+C_05=GNP/0.5*10^-3
