@@ -19,7 +19,7 @@ plot(x,A(1:4,6),'Color',hex2rgb('#423B07'),'Markersize',15) %20k
 
 hold off
 set(gca, 'XTick',1:5, 'XTickLabel',{'$0$Gy' '$5$Gy' '$10$Gy' '$15$Gy'})
-axis([0 6 10 80])
+axis([0 6 0 80])
 ylabel('Damage ($\%$)')
 legend('Ref','1k','5k','10k','20k');
 
@@ -38,7 +38,7 @@ plot(x,A(7:10,6),'Color',hex2rgb('#4C002A'),'Markersize',15) %20k
 
 hold off
 set(gca, 'XTick',1:4, 'XTickLabel',{'$0$Gy' '$5$Gy' '$10$Gy' '$15$Gy'})
-axis([0 6 10 80])
+axis([0 6 0 80])
 ylabel('Damage ($\%$)')
 legend('Ref','1k','5k','10k','20k');
 
@@ -56,6 +56,6 @@ plot(x,A(13:16,5),'Color',hex2rgb('#0D747F'),'Markersize',15) %10k
 plot(x,A(13:16,6),'Color',hex2rgb('#084C4C'),'Markersize',15) %20k
 hold off
 set(gca, 'XTick',1:4, 'XTickLabel',{'$0$Gy' '$5$Gy' '$10$Gy' '$15$Gy'})
-axis([0 6 10 80])
+axis([0 6 0 80])
 ylabel('Damage ($\%$)')
 legend('Ref','1k','5k','10k','20k');
