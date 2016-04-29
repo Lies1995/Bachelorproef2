@@ -8,20 +8,20 @@ There are three major cancer treatments existing today.
 The first one, chemotherapy, uses anti-cancer drugs  to damage the cancer cells.
 These drugs especially affect rapidly dividing cells, which is a typical characteristic of the cancer cells.
 Cancer can also be treated by removing the tumor using surgery.
-A third important treatment is radiation therapy, where ionizing radiation is used to damage the DNA of the cancer cells.
+A third important treatment is radiation therapy where ionizing radiation is used to damage the DNA of the cancer cells.
 Because mostly a combination of these treatments is used, it is estimated that $50\%$ of all cancer patients undergo radiation therapy as part of their treatment \cite{imaginis}.\\
-The problem with ionizing radiation is, that it does not discriminate between malignant and normal tissues.
+The problem with ionizing radiation is that it does not discriminate between malignant and normal tissues.
 Therefore radiation therapy has an unintentional toxic effect on the healthy tissue surrounding the tumor.
 These effects range from those that cause mild discomfort to others that are life-threatening.
 It follows that the radiation dose has to be chosen carefully: it has to be high enough to cause damage to the cancer cells, but it cannot be too high because of the negative effect on the healthy tissue.\\
 The toxic effect of radiation therapy can be reduced in several ways.
 For example, instead of delivering the total dose of radiation at once, the dose can be fractionated in smaller doses that are delivered over a longer period of time.
-Dose fractionations offer the opportunity for healthy cells to recover from the previous dose before the next dose is delivered \cite{radiobiology}.
+Dose fractionation offers the opportunity for healthy cells to recover from the previous dose before the next dose is delivered \cite{radiobiology}.
 Another technique to reduce the negative effect on healthy tissue is radiosensitization.
-With this technique cancer cells are made more sensitive to ionizing radiation whereafter lower radiation doses can be used and the effect on the surrounding tissue is minimized.
+With this technique cancer cells are made more sensitive to ionizing radiation thereby allowing lower radiation doses to be used and minimizing the negative effect on the surrounding tissue.
 In this project radiosensitization using gold nanoparticles (GNP) is discussed.\\
-The absorption of photons is higher for elements with high mass number (Z).
-When the GNP are brought inside a tumor, the ionizing radiation will mainly interact with the nanoparticles because of its high mass number (Z=$79$).
+The absorption of photons is higher for elements with high mass number Z.
+When the GNP are brought inside a tumor, the ionizing radiation will mainly interact with the gold because of its high mass number (Z=$79$).
 This interaction causes local secondary radiation, which delivers its energy locally inside the tumor \cite{targeting}.
 The biocompatibility of gold makes it suitable for medical treatment and is the reason why it is chosen over other elements with high atomic mass \cite{biocompatible}. \\
 The first experimental evidence for the use of GNP to enhance radiation therapy was provided by Hainfeld et al. \cite{expevidence}.
@@ -35,7 +35,7 @@ The PEG coating also provides stability to the GNP solution, i.e. prevents them 
 Finally a mixture of DNA and GNP is irradiated and the effect on the DNA is analysed.
 \section{Theoretical background}
 \subsection{Radiation physics}
-The ionizing radiation type used for radiation therapy ranges from photons and electrons to protons, neutrons and low-mass ions, but photons are by far the most common form used \cite{radtype} There are three possible ways photons can interact with matter: photoelectric absorption, Compton scattering and pair production. An illustration of these processes is shown in figure \ref{fig:inttype}.
+The ionizing radiation type used for radiation therapy ranges from photons and electrons to protons, neutrons and low-mass ions, but photons are by far the most common form used \cite{radtype}. There are three possible ways photons can interact with matter: photoelectric absorption, Compton scattering and pair production. An illustration of these processes is shown in figure \ref{fig:inttype}.
 
 \begin{figure}[h!]
     \centering
@@ -54,15 +54,15 @@ The ionizing radiation type used for radiation therapy ranges from photons and e
         \caption{Pair production}
         \label{fig:mouse}
     \end{subfigure}
-    \caption{Possible interaction types for photons \cite{wikibooks}\cite{pp}.}
+    \caption{Possible interactions between photons and matter \cite{wikibooks}\cite{pp}.}
 		\label{fig:inttypes}
 		\label{fig:inttype}
 \end{figure}
 
-In the photoelectric effect, an electron is ejected due to the absorption of energy supplied by an incoming photon.
+In the photoelectric effect an electron is ejected due to the absorption of energy supplied by an incoming photon.
 The vacancy left by this electron is then filled with another electron from a higher shell which gives of its excess energy as a characteristic X-ray photon.
-In some cases the excess energy may transferred to another electron, which is then ejected. This electron is called an Auger electron.
-The cross section for photoelectric absorption $\tau$ increases for increasing mass number $Z$ and in decreases sharply with the photon energy $E_{\gamma}$:
+In some cases the excess energy may be transferred to another electron, which is then ejected. This electron is called an Auger electron.
+The cross section for photoelectric absorption $\tau$ increases for increasing mass number $Z$ and decreases sharply with the photon energy $E_{\gamma}$:
 \begin{equation}
 \tau \cong C^{te} \cdot \frac{Z^n}{E_{\gamma}{^{3.5}}}
 \end{equation}
@@ -83,20 +83,20 @@ Which interaction takes place depends on the photon energy and on the atomic num
 \caption{}
 \label{fig:atlength}
 \end{subfigure}
-\caption{(a)The region of dominance of the different interaction types in function of the atomic number of the absorber and the energy of the incoming photon \cite{dominant}. (b)The attenuation length of X-rays in water as a function of incomminng photon enery \cite{atlength}.}
+\caption{(a) The region of dominance of the different interaction types in function of the atomic number of the absorber and the energy of the incoming photon \cite{dominant}. (b) The attenuation length of X-rays in water as a function of incoming photon energy \cite{atlength}.}
 \end{figure}
 
 As stated before the radiation does not discriminate between normal and malignant tissue. The healthy tissue surrounding a tumor also receives a radiation dose due to the large penetration depth of photons.
 For the purpose of radiosensitization short range secondary radiation is thus preferred. This secondary radiation has a smaller penetration depth and as a result improves the local energy delivery that is needed to minimize unnecessary damage.
-When gold nanoparticles are implemented in the cancer cells, the photons will mainly interact with the nanoparticles instead of with the biological material since the cross sections for each of the interaction processes increases with increasing $Z$. These interactions then produce the necessary secondary radiation.
+When gold nanoparticles are implemented in the cancer cells, the photons will mainly interact with these nanoparticles instead of with the biological material since the cross sections for each of the interaction processes increases with increasing $Z$. These interactions then produce the necessary secondary radiation.
 The photoelectric effect, which results in a secondary electron, is the preferred interaction due to the small penetration depth of electrons. This interaction is dominant when using keV photons. It follows that keV photons will give rise to the best local energy deposition \cite{Leung}. \\
 For deeper lying tumors however, low keV radiation is not sufficient due to the limited penetration depth of keV photons. This is illustrated in figure \ref{fig:atlength}, where the attenuation length is plotted in function of the photon energy for water. The attenuation length is the depth at which the intensity of the radiation is decreased by a factor $1/e$ \cite{lennaert}.
 In figure \ref{fig:atlength} it is shown that high keV or MeV radiation is needed to reach deep lying tumors. In this energy region the dominant effect that will occur is Compton scattering (see figure \ref{fig:dominant}), both in tissue and in gold. The Compton effect results in scattered photons and electrons with a broad energy distribution. Fortunately the energies of many of these photons fall within the region where interaction with gold is more probable than interaction with tissue and short-range secondary electrons are still produced in large amounts \cite{34}. Therefore, even for treatment of deeper lying tumors the radiosensitization effect is present, but it remains preferable to bring the radiation source as close as possible to the tumor.
 
 \subsection{Biological effects}
 \label{subsec:bioeffects}
-Soon after the discovery of radioactivity, it became clear that the use of ionizing radiation is not harmless. Generally it is assumed that the negative effects on living cells due to radiation exposure are mainly a result of DNA damage. Damage to other parts of the cell, such as membrane damage and cytoplasmic damage do not contribute significantly \cite{41}.\\DNA is a molecule that carries the genetic instructions for the functioning of all living organisms and many viruses. It is composed of two polynucleotide strands that form a double helix. Each of these strand stores the same biological information \cite{celbio}. \\
-When ionizing radiation interacts with biological matter, it causes, besides ionization, also excitation of atoms and molecules inside the cells, which can break chemical bonds.\\
+Soon after the discovery of radioactivity it became clear that the use of ionizing radiation is not harmless. Generally it is assumed that the negative effects on living cells due to radiation exposure are mainly a result of DNA damage. Damage to other parts of the cell, such as membrane damage and cytoplasmic damage do not contribute significantly \cite{41}.\\DNA is a molecule that carries the genetic instructions for the functioning of all living organisms and many viruses. It is composed of two polynucleotide strands that form a double helix. Each of these strand stores the same biological information \cite{celbio}. \\
+When ionizing radiation interacts with biological matter it causes, besides ionization, also excitation of atoms and molecules inside the cells, which can break chemical bonds.\\
 Ionizing radiation leads to DNA damage in two different ways. When ions are formed directly in the DNA molecule, the DNA is damaged and one speaks of a direct effect. In the aqueous environment inside the cells, the ionizing radiation can also interact with the water molecules surrounding the DNA. The water molecules are dissociated and free radicals are formed. These are reactive molecules with an unpaired electron that can interact with the DNA causing damage. The radicals formed after the dissociation of water are the OH$\cdot$ and H$\cdot$ radical, where the dot indicates the unpaired electron. This is the indirect effect. Both the direct and indirect effect are illustrated in figure \ref{fig:direct}. \\
 The common types of damage to the DNA due to this direct an indirect effect are base excision, single strand breaks and double strand breaks. Although repair mechanisms for all of these damages exist in the cell, irradiation can still lead to permanent damage. This permanent damage results in biological effects.
 
@@ -116,8 +116,7 @@ Although the repair mechanisms are highly efficient, incorrect repair and non-re
 To achieve permanent damage to the DNA of cancer cells, double strand breaks are the most effective since they have the most complex repair mechanisms. In a double strand break both strands of the DNA are damaged, so that the other strand cannot be used as a template. In order to have a double strand break  highly ionizing radiation is necessary to interact with molecules in both strands. Furthermore these molecules have to be close together \cite{lennaert}.
 
 \subsection{Targeting}
-In order to have a beneficial effect of GNP in radiation therapy, it is important to bring the nanoparticles as close as possible to the DNA of the cancer cells. The uptake of GNP into the nucleus of the cells is only possible below a certain upper size limit \cite{Ken}. It follows that the size of the nanoparticles is a very important parameter.
-GNP are known to passively accumulate in cancer cells because of the enhanced permeability and retention (EPR) effect. Since cancer cells are rapidly growing cells, tumors have leaky, immature vasculature, so that their blood vessels are more permeable \cite{Jain}. \\
+In order to have a beneficial effect of GNP in radiation therapy, it is important to bring the nanoparticles as close as possible to the DNA of the cancer cells. The uptake of GNP into the nucleus of the cells is only possible below a certain upper size limit \cite{Ken}. It follows that the size of the nanoparticles is a very important parameter. GNP are known to passively accumulate in cancer cells because of the enhanced permeability and retention (EPR) effect. Since cancer cells are rapidly growing cells, tumors have leaky, immature vasculature, so that their blood vessels are more permeable \cite{Jain}. \\
 The EPR effect can be enhanced by functionalizing the naked gold nanoparticles with a polymer, polyethylene glycol (PEG). This PEG coating establishes steric hindrance for nonspecific binding of proteins to the surface of the particle and delays the recognition of the particles by the reticuloendothelial system. Consequently the circulation time of the GNP in the blood is increased and the probability of delivering the nanoparticles to the tumor rises \cite{Ken}. Moreover the functionalization has a positive effect on the stability of the GNP solution. The hydrodynamic radius of the particles increases due to this PEG coating and therefore the optimal size (of the naked GNP) for uptake is smaller when functionalized. \\
 Besides PEGylation, the GNP can also be coated with antibodies to target the tumors. The chosen antibodies actively bind to receptors that are specific for cancer cells. An example of a receptor, over-expressed in tumors, is the epidermal growth factor receptor. Nanoparticles coated with an antibody that corresponds to this receptor are guided to the tumor and bind on its surface \cite{Tiwari}.
 
