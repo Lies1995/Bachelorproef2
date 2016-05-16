@@ -123,7 +123,7 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 
 			\begin{figure}[tb]
     			\centering
-    			\includegraphics[width=5cm]{gfx/direct.png}
+    			\includegraphics[width=5cm]{gfx/direct2.png}
     			\label{fig:direct}
 			\end{figure}
 
@@ -293,10 +293,10 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
     		\includegraphics[width=0.8\textwidth]{gfx/SizeGNP}
     	\end{figure}
       \vspace{-2cm}
-      \centering
-$\qquad \qquad$ $15$nm $\qquad \qquad \quad$ $30$nm $\qquad \qquad \qquad \quad$ $45$nm\\
-$\qquad \qquad$ $2.5$ml $\qquad \qquad \quad$ $1.24$ml $\qquad \qquad \qquad \quad$ $0.8$ml
-\vspace{2cm}
+      %\centering
+$\qquad \qquad$ $15$ nm $\qquad \qquad \quad$ $30$ nm $\qquad \qquad \qquad \quad$   $45$ nm\\
+$\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \quad$ $0.8$ ml
+\vspace{1cm}
       \begin{columns}[c]
 		\column{.5\textwidth}
 			Citrate $1$\%\\
@@ -318,7 +318,9 @@ $\qquad \qquad$ $2.5$ml $\qquad \qquad \quad$ $1.24$ml $\qquad \qquad \qquad \qu
     	\centering
     	\includegraphics[width=0.7\textwidth]{gfx/PEG}
     \end{figure}
-    \vspace{-1cm}
+    \vspace{-1.4cm}
+   $\quad\qquad \qquad$  Ethylene glycol $\qquad \quad$ Polyethylene glycol
+    %\vspace{1cm}
     \begin{columns}
     	\column{.5\textwidth}
     	\begin{figure}[tb]
@@ -326,7 +328,7 @@ $\qquad \qquad$ $2.5$ml $\qquad \qquad \quad$ $1.24$ml $\qquad \qquad \qquad \qu
     		\includegraphics[width=0.7\textwidth]{gfx/PEG2}
     	\end{figure}
     	\centering
-    	$20$k, $10$k, $5$k, $1$k
+      $1$k, $5$k, $10$k, $20$k
     	\column{.5\textwidth}
     	\begin{figure}[tb]
     		\centering
@@ -476,139 +478,46 @@ GNP no PEG
 
 
 \end{frame}
+\subsection{Dynamic light scattering (DLS)}
 \begin{frame}[t]
-\frametitle{Dynamic light scattering (DLS)}
-\vspace{-.4cm}
-\begin{columns}
-	\column{.5\textwidth}
-	\begin{figure}[tb]
-		\centering
-		\includegraphics[width=.5\textwidth]{gfx/GNPPEG2}
-	\end{figure}
-	\column{.5\textwidth}
-	Hydrodynamic radius ($R_h$)\\
-	$\rightarrow$ Rayleigh scattering
-\end{columns}
+\frametitle{Light scattering experiments to determine \\ the hydrodynamic radius (R$_h$)}
+\framesubtitle{Important for diffusive properties}
 \vspace{-.7cm}
 \begin{columns}
-\column{.65\textwidth}
-\column{.35 \textwidth}
-	$$g(\tau)=\frac{\langle I(t)\rangle \langle I(t+\tau)\rangle}{\langle I(t)\rangle^2}$$\\
-	$$R_2<R_1$$
+	\column{.3\textwidth}
+	\begin{figure}[tb]
+		\centering
+		\includegraphics[width=0.8\textwidth]{gfx/GNPPEG2}
+	\end{figure}
+	\column{.6\textwidth}
+  \vspace{0.7}
+  $\qquad \qquad \qquad$ Correlation:\\
+  \vspace{0.3cm}
+  $\qquad \qquad \qquad$ $g(\tau)=\frac{\langle I(t)\rangle \langle I(t+\tau)\rangle}{\langle I(t)\rangle^2}$
 \end{columns}
-\vspace{-2cm}
+\vspace{-.7cm}
+%\vspace{-2cm}
 \begin{columns}
     \column{.5\textwidth}
     \begin{figure}[tb]
     	\centering
-    	\includegraphics[width=\textwidth]{gfx/intensity}
+    	\includegraphics[width=\textwidth]{gfx/DLSint.png}
     \end{figure}
     \column{.5\textwidth}
     \begin{figure}[tb]
     	\centering
-    	\includegraphics[width=\textwidth]{gfx/correlation}
+    	\includegraphics[width=\textwidth]{gfx/DLScor}
     \end{figure}
 \end{columns}
 
 \end{frame}
-\begin{frame}[t]\frametitle{Results}
-\centering
-\vspace{-.3cm}
-\begin{center}
-\begin{overprint}
-        \only<1>{
-        \vspace{-.1cm}
-        Functionalisation no PEG
-        \vspace{-.1cm}
-    \begin{figure}[tb]
-    	\centering
-    	\includegraphics[width=\textwidth]{gfx/DLSzPEG}
-    \end{figure}
-}
-\pauze
-\only<2>{
-\vspace{-.1cm}
-Functionalisation 20k PEG
-        \vspace{-.1cm}
-	\begin{figure}[tb]
-		\centering
-		\includegraphics[width=\textwidth]{gfx/DLSmPEG}
-	\end{figure}
-}
-\end{overprint}
-\end{center}
+\begin{frame}{Hydrodynamic radii for the three different GNP \\with different functionalizations}
+  \begin{figure}[tb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gfx/DlsAll.png}
+  \end{figure}
 \end{frame}
 
-\begin{frame}[t]\frametitle{Results}
-    \centering\\
-Functionalization $15$nm $20$k PEG
-
-    \begin{center}
-	\begin{overprint}
-        \only<1>{
-    \begin{table}[tb]
-    	\centering
-
-    	\begin{tabular}{c|c}
-    	\hline
-
-    	\hline
-    	\textbf{Proportion} & \textbf{Average} \\
-    	\footnotesize{(PEG/GNP)} & \\
-    	\hline
-    		$5/10$ & $51.93 \pm 2.76$ \\
-    		$6/10$ & $80.89 \pm 14.64$\\
-    		$7/10$ & $65.24 \pm 14.32$ \\
-    		$8/10$ & $83.91 \pm 18.42$\\
-    		$9/10$ &  \\
-    	\hline
-
-    	\hline
-    	\end{tabular}
-    \end{table}
-    \vspace{.4cm}
-        Original functionalization $20$k ($8/10$)
-        \vspace{-.5cm}
-    \begin{figure}[tb]
-    	\centering
-    	\includegraphics[width=0.6\textwidth]{gfx/DLS}
-    \end{figure}
-
-    }
-    \pauze
-    \only<2>{
-    \begin{table}[tb]
-    	\centering
-
-    	\begin{tabular}{c|c||c}
-    	\hline
-
-    	\hline
-    	\textbf{Proportion} & \textbf{Average} & \textbf{Average}\\
-    	\footnotesize{(PEG/GNP)} & & \footnotesize{(centrifuge)}\\
-    	\hline
-    		$5/10$ & $51.93 \pm 2.76$ & $68.70 \pm 7.99$ \\
-    		$6/10$ & $80.89 \pm 14.64$ & $65.16 \pm 11.61$\\
-    		$7/10$ & $65.24 \pm 14.32$ & $57.73 \pm 7.72$\\
-    		$8/10$ & $83.91 \pm 18.42$ & $72.36 \pm 10.44$\\
-    		$9/10$ & & $56.54 \pm 3.91$\\
-    	\hline
-
-    	\hline
-    	\end{tabular}
-    \end{table}
-    \vspace{.4cm}
-        Original functionalization $20$k ($8/10$)
-        \vspace{-.5cm}
-    \begin{figure}[tb]
-    	\centering
-    	\includegraphics[width=0.6\textwidth]{gfx/DLS}
-    \end{figure}
-    }
-    \end{overprint}
-    \end{center}
-
-\end{frame}
 
 \begin{frame}{Conclusion}
 \vspace{1cm}
