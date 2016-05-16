@@ -33,7 +33,8 @@
 \usepackage{geometry}
 %\usepackage{ocgx2}
 \usefonttheme{serif}
-
+\newcommand{\tabitem}{%
+  \usebeamertemplate{itemize item}\hspace*{\labelsep}}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -463,7 +464,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 \begin{frame}[t]
 \frametitle{Light scattering experiments to determine \\ the hydrodynamic radius (R$_h$)}
 \framesubtitle{Important for diffusive properties}
-\vspace{-.7cm}
+\vspace{-0.7cm}
 \begin{columns}
 	\column{.3\textwidth}
 	\begin{figure}[tb]
@@ -476,21 +477,20 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
   \vspace{0.3cm}
   $\qquad \qquad \qquad$ $g(\tau)=\frac{\langle I(t)\rangle \langle I(t+\tau)\rangle}{\langle I(t)\rangle^2}$
 \end{columns}
-\vspace{-.7cm}
+\vspace{-0.7cm}
 %\vspace{-2cm}
 \begin{columns}
     \column{.5\textwidth}
     \begin{figure}[tb]
     	\centering
-    	\includegraphics[width=\textwidth]{gfx/DLSint.png}
+    	\includegraphics[width=0.9\textwidth]{gfx/DLSint.png}
     \end{figure}
     \column{.5\textwidth}
     \begin{figure}[tb]
     	\centering
-    	\includegraphics[width=\textwidth]{gfx/DLScor}
+    	\includegraphics[width=0.9\textwidth]{gfx/DLScor}
     \end{figure}
 \end{columns}
-
 \end{frame}
 \begin{frame}{Hydrodynamic radii for the three different GNP \\with different functionalizations}
   \begin{figure}[tb]
@@ -498,30 +498,54 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
     \includegraphics[width=0.7\textwidth]{gfx/DlsAll.png}
   \end{figure}
 \end{frame}
+\section{Radiosensitization}
+\subsection{DNA damage analysis}
+\begin{frame}{Gel electrophoresis to analyse DNA damage}
+  \begin{overprint}
+  \only<1>{
+    \begin{columns}[b]
+    \column{.6\textwidth}
+    \begin{figure}
+      \includegraphics[width=\textwidth]{gfx/schade.png}
+    \end{figure}
+    \column{.3\textwidth}
+    \vspace{1.5cm}
+    Single strand break\\
+    Double strand break\\
+    \end{columns}
+    }
+    \pause
+  \only<2>{
+\begin{figure}
+  \includegraphics[width=0.7\textwidth]{gfx/gel2}
+\end{figure}
+    }
 
-
+\end{overprint}
+\end{frame}
 \begin{frame}{Conclusion}
-\vspace{1cm}
-\begin{columns}
-\column{0.5\textwidth}
-\begin{itemize}
-    \item Synthesis of GNP
-    \item Characterization
-    \item Stabilization with neutral PEG
-\end{itemize}
-\column{0.5\textwidth}
-\begin{itemize}
-    \item Stabilization with positively charged PEG
-    \item X-Rays
+%\vspace{1cm}
+%\begin{columns}
+%\column{0.6\textwidth}
 
-    \item Analyze effect on DNA
-		\item Solve problem with DLS
-\end{itemize}
-\end{columns}
-\vspace{-2cm}
+\begin{center}
+    \begin{tabular}{@{}l@{}}
+      \tabitem Functionalization $1$k strange behavior \\
+      \tabitem Best results with...\\
+        $\qquad$...$5$k functionalization\\
+        $\qquad$...largest particles ($45$ nm)\\
+    \end{tabular}
+  \end{center}
+  \centering
+$\Rightarrow$ Radiosensitization effect observed
+
+%\column{0.001\textwidth}
+
+%\end{columns}
+%\vspace{-2cm}
 \begin{figure}[tb]
 	\centering
-	\includegraphics[width=0.8\textwidth]{gfx/overview}
+	\includegraphics[width=0.6\textwidth]{gfx/overview}
 
 \end{figure}
 \end{frame}
