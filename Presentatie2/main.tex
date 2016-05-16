@@ -89,8 +89,14 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 \column{.4\textwidth}
 \end{columns}
 \end{frame}
+\usebackgroundtemplate{%
+ \includegraphics[width=\paperwidth]
+ {gfx/first}}
+\begin{frame}[plain]
+
+\end{frame}
 \setcounter{framenumber}{0}
-%\usebackgroundtemplate{}
+\usebackgroundtemplate{}
 
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
@@ -282,13 +288,16 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 %------------------------------------------------
 	\begin{frame}[t]
 	\frametitle{The amount of citrate controls the size}
-
 		\begin{figure}[tb]
     		\centering
     		\includegraphics[width=0.8\textwidth]{gfx/SizeGNP}
     	\end{figure}
-
-    	\begin{columns}[c]
+      \vspace{-2cm}
+      \centering
+$\qquad \qquad$ $15$nm $\qquad \qquad \quad$ $30$nm $\qquad \qquad \qquad \quad$ $45$nm\\
+$\qquad \qquad$ $2.5$ml $\qquad \qquad \quad$ $1.24$ml $\qquad \qquad \qquad \quad$ $0.8$ml
+\vspace{2cm}
+      \begin{columns}[c]
 		\column{.5\textwidth}
 			Citrate $1$\%\\
     		\small $100$ml HAuCl$_4$ $0.01$\%
@@ -321,7 +330,7 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
     	\column{.5\textwidth}
     	\begin{figure}[tb]
     		\centering
-    		\includegraphics[width=0.8\textwidth]{gfx/GNPPEG}
+    		\includegraphics[width=0.8\textwidth]{gfx/ptargeting.png}
     	\end{figure}
 
     \end{columns}
@@ -334,8 +343,8 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 %------------------------------------------------
 \subsection{Transmission electron microscope (TEM)}
 %------------------------------------------------
-\begin{frame}{TEM image analysis to determine core diameter}
-    
+\begin{frame}{TEM image analysis to determine \\the core diameter}
+
 				\begin{overprint}
     		\only<1>{
 					\begin{columns}
@@ -348,7 +357,7 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
         		\begin{figure}[tb]
             		\centering
             		\includegraphics[width=6cm]{gfx/TEM_8}
-        		\end{figure}						
+        		\end{figure}
 					\end{columns}
        	 	}
         	\pause
@@ -372,7 +381,7 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
     $45$ & $46.75 \pm 0.47$
   \end{tabular}
   \end{center}
-\end{table}					
+\end{table}
 				\end{columns}
 					}
 
