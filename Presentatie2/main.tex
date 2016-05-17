@@ -38,6 +38,7 @@
 \usefonttheme{serif}
 \newcommand{\tabitem}{%
   \usebeamertemplate{itemize item}\hspace*{\labelsep}}
+\definecolor{lgray}{gray}{0.9}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %---------------------------------------------------------------------------------------
@@ -198,10 +199,40 @@ Professor: & Jean-Pierre Locquet % Instructor/supervisor
 \end{figure}
 	\end{columns}
   \vfill
-  \vspace{0.5cm}
+  \vspace{0.4cm}
   \tiny Source: A. Chaudhary et all. \emph{Phys. Chem. Chem. Phys., 2014 \textbf{16}}
 \end{frame}
+\setcounter{framenumber}{3}
+\begin{frame}{Overview Project}
+\begin{center}
+\large Radiosensitization of DNA \\using gold nanoparticles
+\end{center}
+\begin{columns}[c]
+\normalsize
 
+	\column{.33\textwidth}
+	%\tableofcontents
+  \begin{enumerate}
+    \item Synthesis
+    \item Characterization
+		\begin{enumerate}[a.]
+			\item TEM
+			\item UV-Vis
+			\item DLS
+\end{enumerate}
+    \item Radiosensitization
+  \end{enumerate}
+	\column{.6\textwidth}
+
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{gfx/Inhoud2}
+\end{figure}
+	\end{columns}
+  \vfill
+  \vspace{0.4cm}
+  \tiny Source: A. Chaudhary et all. \emph{Phys. Chem. Chem. Phys., 2014 \textbf{16}}
+\end{frame}
 \setcounter{framenumber}{4}
 
 %------------------------------------------------
@@ -337,8 +368,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 %------------------------------------------------
 \begin{frame}{TEM image analysis to determine \\the core diameter}
 
-				\begin{overprint}
-    		\only<1>{
+
 					\begin{columns}
 					\column{.5\textwidth}
         		\begin{figure}[tb]
@@ -351,10 +381,10 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
             		\includegraphics[width=6cm]{gfx/TEM_8}
         		\end{figure}
 					\end{columns}
-       	 	}
-        	\pause
-    		\only<2>{
-				\vspace{-.45cm}
+        \end{frame}
+        \setcounter{framenumber}{8}
+    \begin{frame}{TEM image analysis to determine \\the core diameter}
+				%\end{frame}\vspace{-.457cm}
 					\begin{columns}
 					\column{.5\textwidth}
         		\begin{figure}[tb]
@@ -362,22 +392,19 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
             		\includegraphics[width=4.5cm]{gfx/GNP_8}
         		\end{figure}
 					\column{.5\textwidth}
-\begin{table}
-  \begin{center}
-  \begin{tabular}{ c | c }
-    Exp. Size (nm) & Size (nm)\\
-    \toprule
-    $15$ & $12.98 \pm 0.23$\\
-     & $2.99 \pm 0.16$\\
-    $30$ & $18.29 \pm 0.23$\\
-    $45$ & $46.75 \pm 0.47$
-  \end{tabular}
-  \end{center}
-\end{table}
+            \begin{table}
+              \begin{center}
+                \begin{tabular}{ c | c }
+                  Exp. Size (nm) & Size (nm)\\
+                  \toprule
+                  $15$ & $12.98 \pm 0.23$\\
+                  & $2.99 \pm 0.16$\\
+                  $30$ & $18.29 \pm 0.23$\\
+                  $45$ & $46.75 \pm 0.47$
+                \end{tabular}
+              \end{center}
+            \end{table}
 				\end{columns}
-					}
-
-			\end{overprint}
 \end{frame}
 
 %------------------------------------------------
@@ -417,7 +444,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 				\vspace{0.2cm}
 						\centering
 						$1$. Add PEG and preform UV-Vis measurement
-				\vspace{O.2cm}
+				\vspace{0.2cm}
         		\begin{figure}[tb]
             		\centering
             		\includegraphics[width=12cm]{gfx/vis2.png}
@@ -434,7 +461,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
         	}
         	\pause
     		\only<3>{
-				\vspace{.5cm}
+				\vspace{.54cm}
         		\begin{figure}[tb]
             		\centering
             		\includegraphics[width=12cm]{gfx/vis4.png}
@@ -488,17 +515,10 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 \subsection{DNA damage analysis}
 
 \begin{frame}{Gel electrophoresis to analyse DNA damage}
-    \begin{columns}
-    \column{.6\textwidth}
     \begin{figure}
       \includegraphics[width=.8\textwidth]{gfx/schade.png}
     \end{figure}
-    \column{.3\textwidth}
-    \vspace{1.5cm}
-    Single strand break\\
-    Double strand break\\
-    \end{columns}
-		\vspace{.5cm}
+
     \begin{figure}
       \includegraphics[width=.7\textwidth]{gfx/GelEl.png}
     \end{figure}
@@ -510,11 +530,12 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 \setcounter{framenumber}{11}
 
 \begin{frame}{Gel electrophoresis to analyse DNA damage}
+  \vspace{1cm}
 \begin{figure}
-  \includegraphics[width=0.7\textwidth]{gfx/gel2}
+  \includegraphics[width=0.6\textwidth]{gfx/gel2}
 \end{figure}
     \vfill
-    \vspace{1.9cm}
+    \vspace{0.9cm}
     \tiny Source: Maunus R et al. Horton JR, Zhang X. Nucleic Acids Research, 34(3):939-948, 2006.
 \end{frame}
 \begin{frame}{DNA damage analysis}
@@ -525,6 +546,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
   \end{figure}
 \end{frame}
 
+\setcounter{framenumber}{12}
 \begin{frame}{DNA damage analysis}
     \centering
     \vspace{0.7cm}
@@ -535,7 +557,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
       \includegraphics[width=\textwidth]{gfx/damage}
     \end{figure}
 \end{frame}
-
+\setcounter{framenumber}{12}
 \begin{frame}{DNA damage analysis}
     \centering
     \vspace{0.7cm}
@@ -546,7 +568,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
       \includegraphics[width=\textwidth]{gfx/damage}
     \end{figure}
 \end{frame}
-
+\setcounter{framenumber}{12}
 \begin{frame}{DNA damage analysis}
     \centering
     \vspace{0.7cm}
@@ -557,7 +579,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
       \includegraphics[width=\textwidth]{gfx/damage}
     \end{figure}
 \end{frame}
-
+\setcounter{framenumber}{12}
 \begin{frame}{DNA damage analysis}
     \centering
     \vspace{0.7cm}
@@ -568,7 +590,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
       \includegraphics[width=\textwidth]{gfx/damage}
     \end{figure}
 \end{frame}
-
+\setcounter{framenumber}{12}
 \begin{frame}{DNA damage analysis}
     \centering
     \vspace{0.7cm}
@@ -579,7 +601,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
       \includegraphics[width=\textwidth]{gfx/damage}
     \end{figure}
 \end{frame}
-
+\setcounter{framenumber}{12}
 \begin{frame}{DNA damage analysis}
   \centering
     \vspace{0.4cm}
@@ -613,18 +635,18 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
   \end{figure}
 \end{columns}
 \end{frame}
-
+\setcounter{framenumber}{13}
 \begin{frame}{Conclusion DNA damage analysis}
 \begin{columns}
 \column{0.7\textwidth}
 \begin{itemize}
-    \item Strange results for $1$ k PEG
-    \item Curves are not rising (except $30$ nm GNP)
+    \item \textcolor{lgray}{Strange results for $1$ k PEG}
+    \item \textcolor{lgray}{Curves are not rising (except $30$ nm GNP)}
     \item Reference sample has strange form
-		\item DNA damage at $0$ Gy
-		\item Radiosensitization effect
-		\item Smaller PEG $\rightarrow$ more DNA damage
-		\item Larger GNP $\rightarrow$ more DNA damage
+		\item \textcolor{lgray}{DNA damage at $0$ Gy}
+		\item \textcolor{lgray}{Radiosensitization effect}
+		\item \textcolor{lgray}{Smaller PEG $\rightarrow$ more DNA damage}
+		\item \textcolor{lgray}{Larger GNP $\rightarrow$ more DNA damage}
 \end{itemize}
 \column{0.2\textwidth}
   \begin{figure}[tb]
@@ -659,9 +681,6 @@ $\Rightarrow$ Radiosensitization effect observed
 	\includegraphics[width=0.6\textwidth]{gfx/overview}
 \end{figure}
 
-  \vfill
-  \vspace{1.7cm}
-  \tiny Source: A. Chaudhary et all. \emph{Phys. Chem. Chem. Phys., 2014 \textbf{16}}
 \end{frame}
 
 % section characterization (end)

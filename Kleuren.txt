@@ -2,7 +2,7 @@ Kleuren
 
 lichtroos basiskleur: 
 Donker roos: 660A3C    102,10,60
-Geel: BFAA13
+Geel: BFAA13/Users/lies/Desktop/latex-image-6.pdf
 Licht roos: B20061     178,0,97 —> Hoofdkleur
 Donker blauw: 0D747F   13,116,127
 Licht blauw: 05E6FF
