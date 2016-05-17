@@ -8,8 +8,8 @@
 \mode<presentation> {
 \usetheme{Singapore}
 \usecolortheme{seagull}
-%\setbeamertemplate{headline}{}
-\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}[page number]{} % To replace the footer line in all slides with a simple slide count uncomment this line
 \setbeamerfont{frametitle}{size=\Large}
 \setbeamerfont{title}{size=\Large}
 \setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
@@ -17,12 +17,14 @@
 %\usefonttheme[⟨onlylarge⟩]{structuresmallcapsserif}
 
 }
+%\setbeamertemplate{headline}{}
 %\usepackage{animate}
 \usepackage{graphicx}
 %\usepackage{movie15}
 \usepackage{lmodern} % Allows including images
 \usepackage{booktabs}
 \usepackage{textpos}
+\usepackage{color}
 %\usepackage{media9}
 \usepackage{url}
 %\usepackage{multimedia}
@@ -37,39 +39,13 @@
   \usebeamertemplate{itemize item}\hspace*{\labelsep}}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
 
-\makeatletter
-\newcommand{\footlineextra}[1]{\gdef\insertfootlineextra{#1}}
-\newbox\footlineextrabox
-
-
-\defbeamertemplate*{footline extra}{default}{
-    \begin{beamercolorbox}[ht=2.25ex,dp=1ex,leftskip=\Gm@lmargin]{footline extra}
-    \insertfootlineextra
-    %\par\vspace{2.5pt}
-    \end{beamercolorbox}
-}
-
-\addtobeamertemplate{footline}{%
-    \setbox\footlineextrabox=\vbox{\usebeamertemplate*{footline extra}}
-    \vskip -\ht\footlineextrabox
-    \vskip -\dp\footlineextrabox
-    \box\footlineextrabox%
-}
-%{}
-
-
-\let\beamer@original@frame=\frame
-\def\frame{\gdef\insertfootlineextra{}\beamer@original@frame}
-\footlineextra{}
-\makeatother
-
-\title[Katholieke Universiteit Leuven]{\small Bachelor Thesis 2016 \\ \vspace{0.2cm} \Huge Radiosensitization \\ using gold nanoparticles}
-\author[L. Deceuninck en H. Verhoeven]{Lies Deceuninck en Hannelore Verhoeven} % Your name
+\title[]{\small Bachelor Thesis 2016 \\ \vspace{0.2cm} \Huge Radiosensitization \\ using gold nanoparticles}
+\author[]{Lies Deceuninck en Hannelore Verhoeven} % Your name
 \date
 
-
+\setbeamertemplate{footline}[frame number]{}
 \begin{document}
 
 %\usebackgroundtemplate{%
@@ -94,7 +70,8 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
  \includegraphics[width=\paperwidth]
  {gfx/first}}
 \begin{frame}[plain]
-
+\vspace{7cm}
+\tiny Source: Y. Connor et all. \emph{Nature Communications $2015$,\textbf{6}}
 \end{frame}
 \setcounter{framenumber}{0}
 \usebackgroundtemplate{}
@@ -106,7 +83,6 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 \subsection{Cancer treatment}
 %------------------------------------------------
 	\begin{frame}{DNA damage using ionizing radiation}
-	 \footlineextra{Source: https://chem.kuleuven.be/veiligheid/info/ioniserende-st.htm}
 
 		\begin{columns}[c]
 
@@ -129,14 +105,17 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 			\end{figure}
 
     \end{columns}
+    \null
+    \vfill
+    \vspace{0.7cm}
+    \tiny Source: \url{https://chem.kuleuven.be/veiligheid/info/ioniserende-st.html}
 
 	\end{frame}
 
 
-
+\normalsize
 
 	\begin{frame}{Radiosensitization of cancer cells with \\ gold nanoparticles (GNP) \footnotesize E $\sim $ keV}
-	\footlineextra{Source: https://en.wikibooks.org/wiki/Basic_Physics_of_Digital_Radiography/The_Patient}
 	%\centering
 	\vspace{.3cm}
 	\begin{columns}[c]
@@ -160,6 +139,10 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
     				\label{fig:compton}
 				\end{figure}
 		\end{columns}
+
+    \vfill
+    \vspace{0.7cm}
+    \tiny Source: \url{https://en.wikibooks.org/wiki/Basic_Physics_of_Digital_Radiography/The_Patient}
 \end{frame}
 
 	\begin{frame}{Targeting of the GNP to the tumor}
@@ -186,14 +169,10 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 
 	\end{frame}
 
-  \begin{frame}[plain]{}
-  %\frametitle{Overview project}
-\footlineextra{Source: A. Chaudhary , A. Gupta , S. Khan and C. Kanti Nandi \emph{Phys. Chem. Chem. Phys.}, 2014 \textbf{16}}
-%\vspace{0.5cm}
-\centering
-\Large Overview Project\\
-\vspace{0.3cm}
-\large Radiosensitization of cancer cells \\using gold nanoparticles
+\begin{frame}{Overview Project}
+\begin{center}
+\large Radiosensitization of DNA \\using gold nanoparticles
+\end{center}
 \begin{columns}[c]
 \normalsize
 
@@ -211,8 +190,11 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
 	\includegraphics[width=0.9\textwidth]{gfx/Inhoud}
 \end{figure}
 	\end{columns}
-
+  \vfill
+  \vspace{0.5cm}
+  \tiny Source: A. Chaudhary et all. \emph{Phys. Chem. Chem. Phys., 2014 \textbf{16}}
 \end{frame}
+
 \setcounter{framenumber}{3}
 
 %------------------------------------------------
@@ -250,10 +232,10 @@ Professor: & Chris Van Haesendonck % Instructor/supervisor
     \end{frame}
     \setcounter{framenumber}{3}
 
-	\begin{frame}[t]
+	\begin{frame}
 	\frametitle{Reduction of gold ions to form GNP}
   \vspace{1cm}
-  \begin{columns}[c r]
+  \begin{columns}[c]
     	\column{.35\textwidth}
       \vspace{0.5cm}
       \Large
@@ -428,12 +410,11 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 				\vspace{0.2cm}
 						\centering
 						$1$. Add PEG and preform UV-Vis measurement
-				\vspace{.2cm}
+				\vspace{O.2cm}
         		\begin{figure}[tb]
             		\centering
             		\includegraphics[width=12cm]{gfx/vis2.png}
         		\end{figure}
-
        	 	}
         	\pause
     		\only<2>{
@@ -449,7 +430,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 						\centering
 						bigger size $\rightarrow$ too little PEG\\
 						same size $\rightarrow$ enough PEG
-				\vspace{-.45cm}
+				\vspace{-0.45cm}
         		\begin{figure}[tb]
             		\centering
             		\includegraphics[width=12cm]{gfx/vis4.png}
@@ -461,7 +442,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 \end{frame}
 
 \subsection{Dynamic light scattering (DLS)}
-\begin{frame}[t]
+\begin{frame}
 \frametitle{Light scattering experiments to determine \\ the hydrodynamic radius (R$_h$)}
 \framesubtitle{Important for diffusive properties}
 \vspace{-0.7cm}
@@ -492,6 +473,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
     \end{figure}
 \end{columns}
 \end{frame}
+
 \begin{frame}{Hydrodynamic radii for the three different GNP \\with different functionalizations}
   \begin{figure}[tb]
     \centering
@@ -500,10 +482,9 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
 \end{frame}
 \section{Radiosensitization}
 \subsection{DNA damage analysis}
+
 \begin{frame}{Gel electrophoresis to analyse DNA damage}
-  \begin{overprint}
-  \only<1>{
-    \begin{columns}[b]
+    \begin{columns}
     \column{.6\textwidth}
     \begin{figure}
       \includegraphics[width=\textwidth]{gfx/schade.png}
@@ -513,14 +494,20 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
     Single strand break\\
     Double strand break\\
     \end{columns}
-    }
-    \pause
-  \only<2>{
+
+    \vfill
+    \tiny Source: \url{https://www.quora.com/ Whats-the-difference-between-a-plasmid-and-a-virus.}
+  \end{frame}
+
+\setcounter{framenumber}{11}
+
+\begin{frame}{Gel electrophoresis to analyse DNA damage}
 \begin{figure}
   \includegraphics[width=0.7\textwidth]{gfx/gel2}
 \end{figure}
-    }
-\end{overprint}
+    \vfill
+    \vspace{0.5cm}
+    \tiny Source: Maunus R et al. Horton JR, Zhang X. Nucleic Acids Research, 34(3):939–948, 2006.
 \end{frame}
 
 \begin{frame}{DNA damage analysis for $15$nm GNP}
@@ -528,6 +515,7 @@ $\qquad \qquad$ $2.5 $ml $\qquad \qquad \quad$ $1.24$ ml $\qquad \qquad \qquad \
     \centering
     \includegraphics[width=0.8\textwidth]{gfx/15}
   \end{figure}
+
 \end{frame}
 
 \begin{frame}{DNA damage analysis for $30$nm GNP}
