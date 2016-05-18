@@ -8,3 +8,15 @@ synthesis-TEM
 DLS
 conclusie DNA damage
 conclusie
+
+TODO:
+—> conclusie DNA analyse:
+	[ ] kleurtjes weghalen HANNELORE
+	[ ] afbeelding 1k gouddeeltjes (om uitleg te geven):LIES
+	[ ] structuur puntjes HANNELORE
+—> gelelektrophoresis afbeelding: + - en pijl: LIES
+—>Active targeting Links op slide
+—> slide 11: title porter: Find optimal PEG/GNP proportion HANNELORE
+		20k in de afbeelding LIES
+—> Paginanumers na slide 14 HANNELORE
+
