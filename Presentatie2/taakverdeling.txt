@@ -12,9 +12,9 @@ conclusie
 TODO:
 —> conclusie DNA analyse:
 	[ ] kleurtjes weghalen HANNELORE
-	[ ] afbeelding 1k gouddeeltjes (om uitleg te geven):LIES
+	[x] afbeelding 1k gouddeeltjes (om uitleg te geven):LIES
 	[ ] structuur puntjes HANNELORE
-—> gelelektrophoresis afbeelding: + - en pijl: LIES
+—> gelelektrophoresis afbeelding: + - en pijl: LIES v
 —>Active targeting Links op slide
 —> slide 11: title porter: Find optimal PEG/GNP proportion HANNELORE
 		20k in de afbeelding LIES
